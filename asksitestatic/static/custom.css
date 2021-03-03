@@ -1,0 +1,55 @@
+/* You can add custom styles here. */
+.gdoc-header {
+  background: #153235;
+}
+
+.gdoc-header .container {
+  background: #153235;
+}
+
+.gdoc-nav__entry,
+a.gdoc-nav__entry {
+  color: #adb5bd !important;
+}
+
+.gdoc-page__header {
+  background: #495057;
+}
+
+body {
+  background: #343a40;
+  color: #adb5bd;
+}
+
+.gdoc-markdown code {
+  background: none;
+  padding: 0;
+}
+
+.pure-g input,
+.pure-g textarea {
+  width: 100%;
+}
+
+.pure-form legend {
+  color: #adb5bd;
+}
+
+.gdoc-page__footer a,
+.gdoc-page__footer a:visited,
+.gdoc-page__header a,
+.gdoc-page__header a:visited {
+  color: #adb5bd;
+}
+
+.gdoc-expand {
+  border: 1px solid #495057;
+}
+
+.gdoc-expand__head {
+  background: #495057;
+}
+
+.gdoc-brand__img {
+  display: block;
+}

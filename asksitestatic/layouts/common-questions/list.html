@@ -1,0 +1,11 @@
+{{ define "main" }}
+    {{ partial "page-header" . }}
+    {{ range .Paginator.Pages }}
+        <article class="gdoc-markdown">
+            <section>
+                {{ .Params.Question }}
+                {{ .Content }}
+            </section>
+        </article>
+    {{ end }}
+{{ end }}
