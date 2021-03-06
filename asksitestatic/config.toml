@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://askcloudarchitech.com/"
 languageCode = "en-us"
 title = "Ask Cloud Architech"
 theme = "hugo-geekdoc"

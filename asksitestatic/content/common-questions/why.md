@@ -4,5 +4,5 @@ draft: false
 ---
 
 {{< expand "Why do you do this for free?" "...">}}
-mostly because i want to
+Answer coming soon. This site is brand new and in true agile fashion, it's not completely finished. 
 {{< /expand >}}
