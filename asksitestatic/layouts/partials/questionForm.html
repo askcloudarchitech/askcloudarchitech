@@ -1,6 +1,6 @@
 
 <section title="Submit a question for the Cloud Architect">
-    <form class="pure-form pure-form-stacked" name="questionform" method="POST" data-netlify="true">
+    <form class="pure-form pure-form-stacked" name="questionform" method="POST" data-netlify="true" netlify-honeypot="hp1">
         <legend>Ask a question</legend>
         {{ $showQuestion := .Page.Scratch.Get "showQustionprompt" }}
         {{ if $showQuestion }}
@@ -17,6 +17,7 @@
                 <div class="pure-u-1 pure-u-md-2-5">
                     <label for="aligned-email">Email Address</label>
                     <input type="email" required id="aligned-email" name="email" placeholder="Email Address" />
+                    <input type="text" class="hp1" name="hp1" />
                 </div>
             </div>
             <div class="pure-g">

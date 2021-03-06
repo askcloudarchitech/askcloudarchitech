@@ -53,3 +53,8 @@ body {
 .gdoc-brand__img {
   display: block;
 }
+
+.hp1 {
+  display: none !important;
+  visibility: hidden !important;
+}
