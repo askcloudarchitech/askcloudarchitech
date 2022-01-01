@@ -21,3 +21,6 @@ pluralizeListTitles = false
   [markup.tableOfContents]
     startLevel = 1
     endLevel = 9
+
+[permalinks]
+  common-questions = '/common-questions/'
