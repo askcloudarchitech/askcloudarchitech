@@ -1,0 +1,10 @@
+---
+header:
+  - name: GitHub
+    ref: https://github.com/gmorse81
+    icon: gdoc_github
+    external: true
+  - name: YouTube
+    ref: https://youtube.com/askcloudarchitech
+    icon: youtube
+    external: true
