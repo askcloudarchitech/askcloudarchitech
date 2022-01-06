@@ -37,7 +37,7 @@ resources:
 
 If you're here watching this video, you probably want to learn more about HomeBrew. What the heck is homebrew, what does it do, how do do you install it? Well, let's get into it and answer all those questions!
 
-{{< youtube w7Ft2ymGmfc >}}
+{{< youtube kGFseTqdS0E >}}
 
 ## What is Homebrew?
 
