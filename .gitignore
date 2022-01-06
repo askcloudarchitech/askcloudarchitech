@@ -1,3 +1,4 @@
 asksitestatic/public
 asksitestatic/resources/_gen
 .DS_Store
+asksitestatic/.hugo_build.lock
