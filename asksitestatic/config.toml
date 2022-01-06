@@ -11,7 +11,17 @@ enableGitInfo = false
 pluralizeListTitles = false
 
 [params]
-    geekdoclogo = "askCloudArchitechLogo.svg"
+    geekdoclogo = "brand.svg"
+    geekdocBreadcrumb = true
+    geekdocCollapseAllSections = true
+    # (Optional, default false) Enable or disable adding tags for post pages automatically to the navigation sidebar.
+    geekdocTagsToMenu = true
+
+    # (Optional, default 'title') Configure how to sort file-tree menu entries. Possible options are 'title', 'linktitle',
+    # 'date', 'publishdate', 'expirydate' or 'lastmod'. Every option can be used with a reverse modifier as well
+    # e.g. 'title_reverse'.
+    geekdocFileTreeSortBy = "date"
+    geekdocSearchShowParent = true
 
 # Needed for mermaid shortcodes
 [markup]
@@ -21,3 +31,11 @@ pluralizeListTitles = false
   [markup.tableOfContents]
     startLevel = 1
     endLevel = 9
+
+[permalinks]
+  common-questions = '/common-questions/'
+
+[taxonomies]
+  category = 'categories'
+  series = 'series'
+  tag = 'tags'

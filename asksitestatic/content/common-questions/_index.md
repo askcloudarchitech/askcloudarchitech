@@ -7,6 +7,6 @@ _build:
 cascade:
   GeekdocHidden: true
   _build:
-    render: never
+    render: link
     list: true
 ---
