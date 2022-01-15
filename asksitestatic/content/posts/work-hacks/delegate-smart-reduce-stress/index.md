@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Delegate Smart Reduce Stress"
 slug: ""
-date: {{ .Date }}
+date: 2022-01-11T19:42:02-05:00
 draft: true
 description: an article
 keywords:

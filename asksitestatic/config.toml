@@ -1,6 +1,6 @@
 baseURL = "https://askcloudarchitech.com/"
 languageCode = "en-us"
-title = "Ask Cloud Architech"
+title = "Tips, Tricks and Work Hacks for Software Development Professionals | Ask Cloud Architech"
 theme = "hugo-geekdoc"
 
 # Required to get well formatted code blocks

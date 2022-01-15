@@ -205,6 +205,18 @@
   border-color: var(--body-font-color);
 }
 
+.gdoc-post__readmore {
+  margin: .5rem 0 .5rem 0;
+}
+
+.gdoc-post {
+  padding: 10px 35px;
+}
+
+.gdoc-post:first-of-type {
+  padding-top: 10px;
+}
+
 /* 
 .gdoc-header {
   background: #153235;

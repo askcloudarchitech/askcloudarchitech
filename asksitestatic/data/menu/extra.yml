@@ -8,3 +8,7 @@ header:
     ref: https://www.youtube.com/channel/UClSv7tWDA4wkCTLhZl1YBlw
     icon: youtube
     external: true
+  - name: Medium
+    ref: https://medium.com/@askcloudarchitech
+    icon: medium
+    external: true

@@ -1,10 +1,102 @@
 {{ define "main" }}
-    <article class="gdoc-markdown gdoc-post">
-      <header class="gdoc-post__header">
-        <h1 class="gdoc-post__title">{{ .Title }}</h1>
-      </header>
-      <div>
-        {{ partial "content" . }}
-      </div>
-    </article>
+{{ partial "page-header" . }}
+{{ .Content }}
+
+    {{ range first 10 .Site.RegularPages }}
+        {{ if ne .Type "common-questions" }}
+        <article class="gdoc-markdown gdoc-post">
+            <header class="gdoc-post__header">
+                <h1 class="gdoc-post__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+            </header>
+            <section>
+                {{ .Summary }}
+            </section>
+            <div class="gdoc-post__readmore">
+                {{ if .Truncated }}
+                <a class="flex-inline align-center fake-link" title="Read full post" href="{{ .RelPermalink }}">Read full post</a>
+                {{ end }}
+            </div>
+
+            <footer class="gdoc-post__footer">
+                <span class="no-wrap">
+                    <svg class="icon gdoc_date"><use xlink:href="#gdoc_date"></use></svg>
+                    <span class="gdoc-post__tag">
+                        <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+                            {{ if .Lastmod.After (.Date.AddDate 0 0 1) }}
+                                Updated on
+                            {{ end }}
+                            {{ .Lastmod.Format "Jan 2, 2006" }}
+                        </time>
+                    </span>
+                </span>
+
+                <span class="no-wrap">
+                    <svg class="icon gdoc_timer"><use xlink:href="#gdoc_timer"></use></svg>
+                    <span class="gdoc-post__tag">{{ .ReadingTime }} min read</span>
+                </span>
+
+                {{ $tc := 0 }}
+                {{ with .Params.tags }}
+                {{ range sort . }}
+                    {{ $name := . }}
+                    {{ with $.Site.GetPage (printf "/tags/%s" $name | urlize) }}
+                        {{ if eq $tc 0 }}
+                        <span class="no-wrap">
+                        <svg class="icon gdoc_bookmark"><use xlink:href="#gdoc_bookmark"></use></svg>
+                        {{ template "post-tag" dict "name" $name "page" . }}
+                        </span>
+                        {{ else }}
+                        {{ template "post-tag" dict "name" $name "page" . }}
+                        {{ end }}
+                    {{ end }}
+                    {{ $tc = (add $tc 1) }}
+                {{ end }}
+                {{ end }}
+            </footer>
+        </article>
+        {{end}}
+    {{ end }}
+    
+    <aside title="Submit a question for the Cloud Architect">
+        <form class="pure-form pure-form-stacked" name="questionform" method="POST" data-netlify="true" netlify-honeypot="hp1">
+            <legend>Ask a question</legend>
+
+            <p>Have a question? Submit your question using this form.</p>
+
+            <fieldset>
+                <div class="pure-g">
+                    <div class="pure-u-1 pure-u-md-2-5">
+                        <label for="aligned-name">Name</label>
+                        <input type="text" required id="aligned-name" name="name" placeholder="Name" />
+                    </div>
+                </div>
+                <div class="pure-g">
+                    <div class="pure-u-1 pure-u-md-2-5">
+                        <label for="aligned-email">Email Address</label>
+                        <input type="email" required id="aligned-email" name="email" placeholder="Email Address" />
+                        <input type="text" class="hp1" name="hp1" />
+                    </div>
+                </div>
+                <div class="pure-g">
+                    <div class="pure-u-1">
+                        <label for="aligned-question" > Question </label>
+                        <textarea id="aligned-question" name="question" rows="15"></textarea>
+                    </div>
+                </div>
+                <div class="pure-g">
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <button type="aligned-submit" class="pure-button pure-button-primary">Submit</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </aside>
+{{ end }}
+
+{{ define "post-tag" }}
+<span class="gdoc-post__tag">
+<span class="gdoc-button">
+    <a class="gdoc-button__link" href="{{ .page.RelPermalink }}" title="All posts tagged with '{{ .name }}'">{{ .name }}</a>
+</span>
+</span>
 {{ end }}
