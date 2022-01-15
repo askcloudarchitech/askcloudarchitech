@@ -3,30 +3,30 @@ title: "Why Multitasking is Impossible and How To Become Really Good at Faking I
 slug: "multitasking-is-impossible-multiplexing"
 date: 2022-01-11T19:23:36-05:00
 draft: false
-description: A strategy for taking your never-ending pile of work and splitting it up into managable subtasks. Reduce your work stress and look like a pro. 
-keywords: multiplexing, task management, reduce work stress, team effeciency, tasks, subtasks, agile work management
+description: A strategy for taking your never-ending pile of work and splitting it up into manageable subtasks. Reduce your work stress and look like a pro. 
+keywords: multiplexing, task management, reduce work stress, team efficiency, tasks, subtasks, agile work management
 categories: 
     - Work Hacks
     - Stress Reducers
 tags:
     - Multiplexing
-    - Task managemnt
+    - Task management
     - Work Stress
     - Work Ninja
-    - Team Effeciency
+    - Team Efficiency
 ---
 
 In today's working environment, virtually everyone is asked to do multiple things at once. Stop for a minute and think about it. How many tasks do you have on your plate right now? Two? Five? Twenty? I bet your answer isn't "One".
 
 The problem is true multitasking is impossible! Have you ever tried to attend two conference calls at the same time? (Come on, admit it, everyone has tried to pull this off at least once!) It just simply can't be done. When you try to do two things at once, you almost certainly end up missing bits and pieces of each individual task. 
 
-If you actually think you can do two, let alone three or four things at the same time, you are fooling youself; and your productivity is suffering because if it. That's bad news, but the good news is that you can still give the illusion of having many balls in the air while keeping your stress levels down and impressing your manager. 
+If you actually think you can do two, let alone three or four things at the same time, you are fooling yourself; and your productivity is suffering because if it. That's bad news, but the good news is that you can still give the illusion of having many balls in the air while keeping your stress levels down and impressing your manager. 
 
 ## Change Your Mindset - Don't Multitask, Multiplex!
 
 The key to becoming a multitasking ninja is to change your mindset. While multitasking is the act of doing multiple things at the same time. Multiplexing is the act of breaking tasks into multiple bite size chunks and working them individually until the sum of the tasks is complete. 
 
-So, take the word "Multitasking" out of your vocabulary. It's like a four letter word that only leads to stress and subpar results. Multiplexing is the solution. It's not just a word. Its a mindset, an approach and a dicipline. 
+So, take the word "Multitasking" out of your vocabulary. It's like a four letter word that only leads to stress and subpar results. Multiplexing is the solution. It's not just a word. Its a mindset, an approach and a discipline. 
 
 So how do you do it?
 
@@ -38,7 +38,7 @@ You'll know that you have a good set of subtasks when you can look at them and n
 
 ## Find the Pieces that Need to be Done Now
 
-Next, take all your subtasks and figure out which ones are critcal. Your definition of critical could be subtasks that need to be completed today, or subtasks that need to be completed in the next hour. You can also complete the subtasks that unblock other subtasks or unblock other people from doing their work. 
+Next, take all your subtasks and figure out which ones are critical. Your definition of critical could be subtasks that need to be completed today, or subtasks that need to be completed in the next hour. You can also complete the subtasks that unblock other subtasks or unblock other people from doing their work. 
 
 Pro Tip: There is nothing more stressful than knowing that coworkers are waiting on you to get something done. If you can tackle those "blockers" first, you might actually get some peace and quiet!
 
@@ -58,10 +58,10 @@ If you find yourself in this position, I would highly recommend prioritizing fin
 
 Last, but certainly not least, is my absolute favorite way to lighten your workload. Delegate! Delegating is not just for managers anymore. If you work in a team, it's really important to take a look at your subtasks and ask one question: "Am I the right person to be doing this work?" If not, find the right person and let them take on the task. 
 
-This approach helps in two different ways and it is also a game of give and take. Naturally if you delegate subtasks to co-workers, you should expect that they will do the same in return. This is perfectly fine because hopefully everyone will end up with subtasks that they are either interested in doing or very effecient at completing. Delegating allows the team to complete work faster overall and everyone wins. 
+This approach helps in two different ways and it is also a game of give and take. Naturally if you delegate subtasks to co-workers, you should expect that they will do the same in return. This is perfectly fine because hopefully everyone will end up with subtasks that they are either interested in doing or very efficient at completing. Delegating allows the team to complete work faster overall and everyone wins. 
 
 ## Rinse and repeat
 
-Quitting the multitasking rat race takes a little bit effort and dicipline, but will absolutely affect your day-today. One word of caution: it can be very easy to slip back into old habits! Try to start your day, every day, by assessing your tasks, breaking them up and working them on subtask at a time. By reassesing daily, you can ensure the old habits wont sneak their way back into your routine. 
+Quitting the multitasking rat race takes a little bit effort and discipline, but will absolutely affect your day-today. One word of caution: it can be very easy to slip back into old habits! Try to start your day, every day, by assessing your tasks, breaking them up and working them on subtask at a time. By reassessing daily, you can ensure the old habits wont sneak their way back into your routine. 
 
 
