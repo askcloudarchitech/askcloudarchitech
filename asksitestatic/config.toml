@@ -39,3 +39,6 @@ pluralizeListTitles = false
   category = 'categories'
   series = 'series'
   tag = 'tags'
+
+[outputs]
+  page = ['HTML', 'JSON']
