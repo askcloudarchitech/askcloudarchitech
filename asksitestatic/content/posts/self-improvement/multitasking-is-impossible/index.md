@@ -16,6 +16,8 @@ tags:
     - Team Efficiency
 ---
 
+{{< youtube Mu7BCzSCtC0 >}}
+
 In today's working environment, virtually everyone is asked to do multiple things at once. Stop for a minute and think about it. How many tasks do you have on your plate right now? Two? Five? Twenty? I bet your answer isn't "One".
 
 The problem is true multitasking is impossible! Have you ever tried to attend two conference calls at the same time? (Come on, admit it, everyone has tried to pull this off at least once!) It just simply can't be done. When you try to do two things at once, you almost certainly end up missing bits and pieces of each individual task. 
