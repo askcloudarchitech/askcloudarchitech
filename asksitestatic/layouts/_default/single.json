@@ -3,6 +3,5 @@
   "contentFormat": "html",
   "content": {{ printf "<h1>%s</h1> %s" .Title .Content | jsonify }},
   "canonicalUrl": {{ .Permalink | jsonify }},
-  "tags": {{ .Params.tags | jsonify }},
-  "publishStatus": "draft"
+  "tags": {{ .Params.tags | jsonify }}
 }
