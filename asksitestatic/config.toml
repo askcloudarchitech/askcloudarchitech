@@ -42,3 +42,4 @@ pluralizeListTitles = false
 
 [outputs]
   page = ['HTML', 'JSON']
+  section = ['HTML', 'JSON']

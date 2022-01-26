@@ -2,6 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 slug: ""
 date: {{ .Date }}
+ID: {{ .UniqueID }}
 draft: true
 description: an article
 keywords:
