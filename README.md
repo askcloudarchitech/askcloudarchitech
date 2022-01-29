@@ -1,5 +1,5 @@
-# askcloudarchitech static site content
+# AskCloudArchitech Static Site Content
 
-This is the source code for askcloudarchitech.com 
+This is the source code for [askcloudarchitech.com](https://askcloudarchitech.com)
 
-This site is built with go-hugo
+This site is built with [go-hugo](https://gohugo.io/)
