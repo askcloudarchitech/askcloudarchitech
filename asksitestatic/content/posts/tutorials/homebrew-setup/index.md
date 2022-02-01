@@ -3,6 +3,7 @@ title: "Homebrew Setup"
 slug: "homebrew-setup-and-usage"
 date: 2022-01-01T13:22:40-05:00
 draft: false
+ID: sdahfjk7890678asdfhuil
 description: Learn about Homebrew. What is Homebrew? What does it do? How do you install it?
 keywords: Homebrew, Package manager, installing homebrew
 categories: 
