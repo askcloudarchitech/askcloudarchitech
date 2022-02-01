@@ -2,6 +2,7 @@
 title: "Why Multitasking is Impossible and How To Become Really Good at Faking It"
 slug: "multitasking-is-impossible-multiplexing"
 date: 2022-01-11T19:23:36-05:00
+ID: ashdfjalsdhfjaklsdhfjkaslhdfjk
 draft: false
 description: A strategy for taking your never-ending pile of work and splitting it up into manageable subtasks. Reduce your work stress and look like a pro. 
 keywords: multiplexing, task management, reduce work stress, team efficiency, tasks, subtasks, agile work management
