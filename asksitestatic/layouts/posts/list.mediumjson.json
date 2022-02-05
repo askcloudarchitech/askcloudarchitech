@@ -3,7 +3,7 @@
     {{- if $i -}}, 
     {{ end -}}
     {
-        "url": "{{ .Permalink }}index.json",
+        "url": "{{ .Permalink }}medium.json",
         "id": "{{ if .Params.Id }}{{ .Params.Id }}{{end}}"
     }{{ end }}
 ]

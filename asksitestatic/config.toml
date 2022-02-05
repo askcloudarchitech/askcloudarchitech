@@ -40,6 +40,12 @@ pluralizeListTitles = false
   series = 'series'
   tag = 'tags'
 
+[outputFormats]
+  [outputFormats.MediumJSON]
+    baseName = 'medium'
+    isPlainText = true
+    mediaType = 'application/json'
+
 [outputs]
-  page = ['HTML', 'JSON']
-  section = ['HTML', 'JSON']
+  page = ['HTML', 'MediumJSON']
+  section = ['HTML', 'MediumJSON']
