@@ -1,6 +1,5 @@
 {{ define "main" }}
 {{ partial "page-header" . }}
-{{ .Content }}
 
     {{ range first 10 .Site.RegularPages }}
         {{ if ne .Type "common-questions" }}
