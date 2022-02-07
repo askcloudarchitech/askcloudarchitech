@@ -1,9 +1,0 @@
-[
-    {{ range $i, $e := (.Paginate .RegularPagesRecursive).Pages -}}
-    {{- if $i -}}, 
-    {{ end -}}
-    {
-        "url": "{{ .Permalink }}medium.json",
-        "id": "{{ if .Params.Id }}{{ .Params.Id }}{{end}}"
-    }{{ end }}
-]

@@ -1,3 +1,9 @@
-{
-
-}
+[
+    {{ range $i, $e := .RegularPagesRecursive -}}
+    {{- if $i -}}, 
+    {{ end -}}
+    {
+        "url": "{{ .Permalink }}medium.json",
+        "id": "{{ if .Params.Id }}{{ .Params.Id }}{{end}}"
+    }{{ end }}
+]

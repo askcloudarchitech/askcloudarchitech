@@ -1,5 +1,5 @@
 ---
-title: Software Installation Tutorials
+title: Tutorials
 icon: "download"
 ---
 
