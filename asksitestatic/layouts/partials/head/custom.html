@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+
+{{ if eq (getenv "HUGO_ENV") "production" }}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJ8QVPTKBZ"></script>
 <script>
@@ -8,3 +10,4 @@
 
   gtag('config', 'G-QJ8QVPTKBZ');
 </script>
+{{ end }}
