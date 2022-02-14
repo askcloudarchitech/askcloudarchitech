@@ -51,6 +51,8 @@ resources:
       title: Collection action menu with run collection option
 ---
 
+{{< youtube cY50uFTY7WM >}}
+
 If you are looking to get the most of every article you write, syndicating your content to Medium.com can help you get your content in front of more eyeballs regularly. When I write articles I usually start by posting them to my own website first, then taking the finished product and posting it to Medium.com. I then supply a canonical URL in the Medium.com article settings so search engines don’t see this post as duplicate content.
 
 Medium has an auto-import tool that will attempt to read the content from your website and automatically create a Medium.com post based on what it finds. While this tool works sometimes, it’s not always the best. Sometimes it works perfectly, other times it completely fails. Because of this, I decided to create a simpler way to get my website articles onto Medium with minimum effort and far fewer errors.
