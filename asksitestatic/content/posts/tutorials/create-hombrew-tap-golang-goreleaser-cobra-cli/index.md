@@ -1,5 +1,5 @@
 ---
-title: "Create a Custom CLI Tool and distribute it with HomeBrew using Goreleaser and Github Actions"
+title: "Create a Custom CLI Tool and Distribute with HomeBrew Using Goreleaser and Github Actions"
 slug: "create-homebrew-tap-golang-goreleaser-cobra-cli"
 date: 2022-02-20T19:56:10-05:00
 ID: 62283b7b1af6b2d659f02ec4d11f0dd7
