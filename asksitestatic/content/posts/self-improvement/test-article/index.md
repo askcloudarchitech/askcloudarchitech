@@ -16,3 +16,9 @@ resources:
     title: image title
 ---
 test body
+
+> some quote
+
+```go
+package stuff
+```
