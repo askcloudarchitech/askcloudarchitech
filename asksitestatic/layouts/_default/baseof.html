@@ -11,6 +11,7 @@
     {{ partial "head/others" . }}
     {{ partial "head/schema" . }}
     {{ partial "head/custom" . }}
+    {{ if eq .Kind "home" }} <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> {{ end }}
 </head>
 
 <body itemscope itemtype="https://schema.org/WebPage">
@@ -39,5 +40,18 @@
     </div>
 
     {{ partial "foot" . }}
+    {{ if eq .Kind "home" }}
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+    </script>
+    {{ end }}
 </body>
 </html>
