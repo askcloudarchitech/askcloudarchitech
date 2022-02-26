@@ -15,7 +15,7 @@ resources:
     src: medium-auto-post-cli.001.jpeg
     title: Introducing MediumAutoPost
 ---
-{{ <img name="thumbnail" size="large"> }}
+{{<img name="thumbnail" size="large">}}
 
 In a previous article, I outlined how to set up your Hugo site so you can easily syndicate your articles to medium.com. I also provided a Postman collection that would do the heavy lifting of posting your new content. While that worked pretty well, I wanted to do a little better. 
 
