@@ -26,10 +26,21 @@ Namely, I wanted to make these improvements:
 3. Track and store which articles have already been syndicated to avoid posting duplicate content
 4. Allow for all of this to work with one simple command 
 
-So... to accomplish that I created mediumautopost! It's a CLI tool written in Go that accomplished all the improvements I listed above. This article will cover all of the one-time setup steps needed to get this all working. Let's get started!
+So... to accomplish that I created mediumautopost! It's a CLI tool written in Go that accomplishes all the improvements I listed above. This article will cover all of the one-time setup steps needed to get this all working. Let's get started!
 
 ## Step One: Install mediumautopost
 
+Installing the tool is easy! If you have homebrew installed on your mac simply run these two steps:
+
+```bash
+brew tap askcloudarchitech/askcloudarchitech 
+brew install mediumautopost
+```
+
+If you don't have homebrew or you would prefer to install the application manually you can also grab the binary [here](https://github.com/askcloudarchitech/mediumautopost/releases)
+
 ## Step Two: Make a Place to Save Publishing Status
+
+One of the best features of MediumAutoPost is its ability to remember which posts it has already sent to medium.com. Since mediumautopost is designed to work with Hugo and Hugo doesn't really have the ability to save the state of something (since it's a static generated content tool), 
 
 ## Step Three: Populate the environment variables
