@@ -41,6 +41,13 @@ If you don't have homebrew or you would prefer to install the application manual
 
 ## Step Two: Make a Place to Save Publishing Status
 
-One of the best features of MediumAutoPost is its ability to remember which posts it has already sent to medium.com. Since mediumautopost is designed to work with Hugo and Hugo doesn't really have the ability to save the state of something (since it's a static generated content tool), 
+One of the best features of MediumAutoPost is its ability to remember which posts it has already sent to medium.com. Since mediumautopost is designed to work with Hugo and Hugo doesn't really have the ability to save the state of something (since it's a static generated content tool), we need to set up a permanent place for storing the publication status of the individual posts. 
+
+When building the tool I landed on storing this publication information in a git repo. I chose this for a couple of reasons:
+
+1. Github is a pretty universal tool that many people use
+2. It's free! If you haven't noticed, everything I'm doing here from web hosting to publications and automation is all completely free on a month-to-month basis. This is important to me for maintaining a very low-cost content publication solution. 
+
+This process is pretty simple. Just go to github.com and 
 
 ## Step Three: Populate the environment variables
