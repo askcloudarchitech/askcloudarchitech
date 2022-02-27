@@ -14,6 +14,9 @@ resources:
   - name: thumbnail
     src: medium-auto-post-cli.001.jpeg
     title: Introducing MediumAutoPost
+  - name: new-personal-access-token
+    title: Create a personal access token on github
+    src: new-personal-access-token.png
 ---
 {{<img name="thumbnail" size="large">}}
 
@@ -48,6 +51,10 @@ When building the tool I landed on storing this publication information in a git
 1. Github is a pretty universal tool that many people use
 2. It's free! If you haven't noticed, everything I'm doing here from web hosting to publications and automation is all completely free on a month-to-month basis. This is important to me for maintaining a very low-cost content publication solution. 
 
-This process is pretty simple. Just go to github.com and 
+This process is pretty simple. Just go to github.com and create a new repo. I called mine medium-publish-status and you can [see it here](https://github.com/askcloudarchitech/medium-publish-status) if you would like to see an example. You don't even need to add any files to this repo. MediumAutoPost will do all of that for you. 
+
+Next, you will need to create a Github personal access token so the program has permission to update the repo. Go to https://github.com/settings/tokens and hit the "generate new token" button. Provide a name in the note field, select an expiration date and check the box next to Repo then hit "Generate token" at the bottom. Copy the token and put it somewhere safe for now. NOTE: Keep this token a secret. 
+
+{{<img name="new-personal-access-token" size="medium">}}
 
 ## Step Three: Populate the environment variables
