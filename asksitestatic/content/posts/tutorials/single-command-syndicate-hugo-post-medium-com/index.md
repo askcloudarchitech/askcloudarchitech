@@ -57,4 +57,21 @@ Next, you will need to create a Github personal access token so the program has 
 
 {{<img name="new-personal-access-token" size="medium">}}
 
+I should also add, if you don't want to do the Github status setup, you can also store the status file locally on your computer. I will cover that in the next step. Just a word of warning: be careful if you choose the local storage option. If you lose the file, the program will not know what posts it has already posted to medium.com. 
+
 ## Step Three: Populate the environment variables
+
+The final step before running the command is to create the settings file. Here's an example of the file:
+
+```shell
+MEDIUM_ENDPOINT_PREFIX="https://api.medium.com/v1"
+MEDIUM_BEARER_TOKEN="get token from medium. paste here"
+WEBSITE_JSON_INDEX_URL="path to your json index file"
+GITHUB_PERSONAL_TOKEN="generate a personal access token and paste here"
+GITHUB_STATUS_REPO_OWNER="your github account name"
+GITHUB_STATUS_REPO="repo name for storing status of posts to medium.com"
+STORAGE_TYPE=""
+STORAGE_FILE_PATH="/OPTIONAL/PATH/TO/STATUS/FILE.json"
+```
+
+These settings instruct MediumAutoPost on how to pull your articles and post them to medium.com.
