@@ -34,7 +34,9 @@ resources:
 ---
 {{<img name="thumbnail" size="large">}}
 
-In a previous article, I outlined how to set up your Hugo site so you can easily syndicate your articles to medium.com. I also provided a Postman collection that would do the heavy lifting of posting your new content. While that worked pretty well, I wanted to do a little better. 
+[In a previous article](https://askcloudarchitech.com/posts/tutorials/auto-generate-post-payload-medium-com/), I outlined how to set up your Hugo site so you can easily syndicate your articles to medium.com. I also provided a Postman collection that would do the heavy lifting of posting your new content. While that worked pretty well, I wanted to do a little better. 
+
+https://askcloudarchitech.com/posts/tutorials/auto-generate-post-payload-medium-com/
 
 Namely, I wanted to make these improvements:
 
@@ -43,7 +45,9 @@ Namely, I wanted to make these improvements:
 3. Track and store which articles have already been syndicated to avoid posting duplicate content
 4. Allow for all of this to work with one simple command 
 
-So... to accomplish that I created mediumautopost! It's a CLI tool written in Go that accomplishes all the improvements I listed above. This article will cover all of the one-time setup steps needed to get this all working. Let's get started!
+So... to accomplish that I created [mediumautopost](https://github.com/askcloudarchitech/mediumautopost)! It's a CLI tool written in Go that accomplishes all the improvements I listed above. This article will cover all of the one-time setup steps needed to get this all working. Let's get started!
+
+https://github.com/askcloudarchitech/mediumautopost
 
 ## Step One: Install mediumautopost
 
@@ -103,7 +107,7 @@ Now that you have the settings file created, just save it somewhere and note the
 
 ## Step Four: Run the tool and post your content
 
-The last step is to just run the command. From your terminal, run `mediumautopost -e /path/to/your/.env`, replacing the path in the command with the actual path of your settings file you created above. If all goes well, you should see some output telling you that your posts have been submitted!
+The last step is to just run the command. From your terminal, run `mediumautopost -e /path/to/your/.env`, replacing the path in the command with the actual path of the settings file you created above. If all goes well, you should see some output telling you that your posts have been submitted!
 
 Now head over to medium.com and log into your account. Go to your drafts sections and you should see your posts there. You can make any necessary tweaks then publish. 
 
