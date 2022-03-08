@@ -47,7 +47,7 @@ tags:
   - golang development
 ID: 62283b7b1af6b2d659f02ec4d11f0dd7
 ---
-{{<youtube IOVBSVox1lM/>}}
+{{<youtube IOVBSVox1lM>}}
 
 Previously, [I wrote about installing and using Homebrew](https://medium.com/@askcloudarchitech/everything-you-need-to-know-about-homebrew-e91d1e82959a). In that article, I briefly mentioned that you could pretty easily create and distribute your own apps using HomeBrew. Today, I'm going to cover how to do that step-by-step. In this article, I will cover the basics of creating a command-line app using the excellent Go package Cobra then show you how to easily and automatically publish your tool to a HomeBrew Tap so others can install it with a couple of simple commands.  Let's get started.
 
