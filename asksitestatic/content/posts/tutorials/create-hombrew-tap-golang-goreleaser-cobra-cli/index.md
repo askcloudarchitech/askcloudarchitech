@@ -36,7 +36,6 @@ resources:
   - name: homebrew-tap-repo
     src: homebrew-tap-repo.png
     title: Homebrew Tap repo
-slug: create-homebrew-tap-golang-goreleaser-cobra-cli
 tags:
   - Go Cobra
   - Homebrew
