@@ -1,9 +1,8 @@
 ---
-title: Create a Custom CLI Tool and Distribute with HomeBrew Using Goreleaser
-  and Github Actions
+title: Create a Custom CLI Tool and Distribute with HomeBrew Using Goreleaser and Github Actions
 date: 2022-02-20T19:56:10-05:00
-description: Learn how to create a command line tool with Go Cobra and
-  distribute it to homebrew using goreleaser and github actions.
+slug: "create-homebrew-tap-golang-goreleaser-cobra-cli"
+description: Learn how to create a command line tool with Go Cobra and distribute it to homebrew using goreleaser and github actions.
 draft: false
 keywords:
   - Go Cobra
