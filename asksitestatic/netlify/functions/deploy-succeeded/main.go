@@ -2,6 +2,8 @@ package main
 
 import (
 	"context"
+	"fmt"
+	"os"
 
 	"github.com/askcloudarchitech/mediumautopost/pkg/mediumautopost"
 	"github.com/aws/aws-lambda-go/events"
@@ -10,7 +12,11 @@ import (
 
 func handler(ctx context.Context, request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
 
-	mediumautopost.Do("")
+	if os.Getenv("CONTEXT") == "production" {
+		mediumautopost.Do("")
+	} else {
+		fmt.Println("context " + os.Getenv("CONTEXT") + " detected, skipping")
+	}
 
 	return &events.APIGatewayProxyResponse{
 		StatusCode:      200,

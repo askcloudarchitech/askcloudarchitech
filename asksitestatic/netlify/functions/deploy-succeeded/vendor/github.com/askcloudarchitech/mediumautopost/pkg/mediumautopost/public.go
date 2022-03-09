@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 
 	"github.com/Medium/medium-sdk-go"
 )
@@ -102,5 +103,5 @@ func Do(dotEnvPath string) {
 
 	// return great success
 	fmt.Println("Great Success!")
-
+	os.Exit(0)
 }
