@@ -8,11 +8,15 @@ import (
 	"github.com/askcloudarchitech/mediumautopost/pkg/mediumautopost"
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
+	"github.com/aws/aws-lambda-go/lambdacontext"
 )
 
 func handler(ctx context.Context, request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
 
-	fmt.Println(os.Environ())
+	lc, ok := lambdacontext.FromContext(ctx)
+	if ok {
+		fmt.Println(lc)
+	}
 
 	if os.Getenv("CONTEXT") == "production" {
 		mediumautopost.Do("")
