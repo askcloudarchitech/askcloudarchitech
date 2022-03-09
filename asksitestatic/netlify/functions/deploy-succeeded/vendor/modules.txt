@@ -1,7 +1,7 @@
 # github.com/Medium/medium-sdk-go v0.0.0-20171230201202-4daca056cf6a
 ## explicit
 github.com/Medium/medium-sdk-go
-# github.com/askcloudarchitech/mediumautopost v0.0.0-20220309060919-98ae1c35b7a6
+# github.com/askcloudarchitech/mediumautopost v0.0.0-20220309064629-5de8be6dace7
 ## explicit; go 1.17
 github.com/askcloudarchitech/mediumautopost/pkg/mediumautopost
 # github.com/aws/aws-lambda-go v1.28.0

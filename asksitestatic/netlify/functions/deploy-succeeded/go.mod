@@ -3,7 +3,7 @@ module github.com/askcloudarchitech/askcloudarchitech/netlify/functions/deploy-s
 go 1.17
 
 require (
-	github.com/askcloudarchitech/mediumautopost v0.0.0-20220309060919-98ae1c35b7a6
+	github.com/askcloudarchitech/mediumautopost v0.0.0-20220309064629-5de8be6dace7
 	github.com/aws/aws-lambda-go v1.28.0
 )
 

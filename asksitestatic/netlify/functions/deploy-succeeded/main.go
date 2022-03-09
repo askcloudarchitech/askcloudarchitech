@@ -12,6 +12,8 @@ import (
 
 func handler(ctx context.Context, request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
 
+	fmt.Println(os.Environ())
+
 	if os.Getenv("CONTEXT") == "production" {
 		mediumautopost.Do("")
 	} else {
