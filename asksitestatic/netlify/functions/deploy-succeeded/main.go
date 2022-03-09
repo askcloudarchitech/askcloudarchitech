@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/askcloudarchitech/mediumautopost/pkg/mediumautopost"
+	"github.com/askcloudarchitech/mediumautopost/pkg/MediumAutoPost"
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
 )
