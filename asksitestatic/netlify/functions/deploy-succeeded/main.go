@@ -8,6 +8,7 @@ import (
 	"github.com/askcloudarchitech/mediumautopost/pkg/mediumautopost"
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
+	"github.com/davecgh/go-spew/spew"
 )
 
 type RequestBody struct {
@@ -19,6 +20,8 @@ type Payload struct {
 }
 
 func handler(ctx context.Context, request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
+
+	spew.Dump(request.Body)
 
 	requestBody := RequestBody{}
 	json.Unmarshal([]byte(request.Body), &requestBody)

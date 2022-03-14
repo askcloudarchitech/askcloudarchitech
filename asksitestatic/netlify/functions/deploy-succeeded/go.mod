@@ -5,6 +5,7 @@ go 1.17
 require (
 	github.com/askcloudarchitech/mediumautopost v0.0.0-20220309064629-5de8be6dace7
 	github.com/aws/aws-lambda-go v1.28.0
+	github.com/davecgh/go-spew v1.1.1
 )
 
 require (
