@@ -21,11 +21,13 @@ I've been working on a tool that will automatically take any new post I write on
 
 ## Creating the Netlify Function
 
-Netlify's documentation on Netlify Functions is OK, but not great. It took some jumping around and some additional digging to figure out everything i needed to do, but eventually I figured it all out. Here are the steps I completed as well as some helpful "missing documentation" I encountered along the way. 
+Netlify's documentation on Netlify Functions is OK, but not great. It took some jumping around and some additional digging to figure out everything i needed to do, but eventually, I figured it all out. Here are the steps I completed as well as some helpful "missing documentation" I encountered along the way. 
 
 ### Create the File - Naming is important!
 
 ### Writing the execution steps
+
+{{< gist gmorse81 61c8257d0ccf14cedef078ecf3685ac3 >}}
 
 ### Debugging the Payload
 
