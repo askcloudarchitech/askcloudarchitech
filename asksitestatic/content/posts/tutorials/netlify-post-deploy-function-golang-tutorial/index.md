@@ -26,7 +26,12 @@ resources:
   - name: netlify-deploy-file
     title: File location netlify/functions/deploy-succeeded
     src: screen-shot-2022-03-14-at-8.38.22-pm.png
+  - name: netlify-functions
+    src: netlify-functions.001.jpeg
+    title: Serverless Made Simple
 ---
+{{< img name="netlify-functions" size="large" >}}
+
 If you are hosting your website on Netlify.com, the Netlify Functions feature has the potential to add a ton of functionality to your JAMStack site for no additional cost. Netlify functions are simply serverless functions that can be triggered either by submitting data to a certain URL on your site or by triggered events in your site's build process. 
 
 Recently I needed a way to execute some additional functionality after a successful deployment of my Hugo site hosted on Netlify. To accomplish this, I used the post-deploy Netlify function and it worked great!
