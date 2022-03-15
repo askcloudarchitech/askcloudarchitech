@@ -33,7 +33,7 @@ Recently I needed a way to execute some additional functionality after a success
 
 ## My Use Case
 
-I've been working on a tool that will automatically take any new post I write on my website and post it to medium.com as a draft. I've written a few articles about this tool and you can read them here and here. The last step I needed to complete was the automation that would post my new article when I published it. Previously I had been running the tool manually, and while this worked fine, I am incredibly lazy and just wanted it to work without even thinking about it. 
+I've been working on a tool that will automatically take any new post I write on my website and post it to medium.com as a draft. I've written a few articles about this tool and you can read them [here](https://blog.devgenius.io/introducing-medium-auto-post-syndicate-your-hugo-content-to-medium-com-3fd760ce09) and [here](https://blog.devgenius.io/auto-generate-a-medium-com-rest-api-payload-to-syndicate-posts-with-hugo-fce630cced67). The last step I needed to complete was the automation that would post my new article when I published it. Previously I had been running the tool manually, and while this worked fine, I am incredibly lazy and just wanted it to work without even thinking about it. 
 
 ## Creating the Netlify Function
 
