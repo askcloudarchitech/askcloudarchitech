@@ -1,6 +1,6 @@
 ---
 title: How to Write a Netlify Post-Deploy Function in Golang
-date: 2022-03-12T14:26:34.274Z
+date: 2022-03-15T05:14:50.235Z
 description: "Learn to create serverless functions on netlify.com to add dynamic
   server site functionality to your statically generated website. "
 draft: false
@@ -19,6 +19,8 @@ tags:
   - serverless functions
   - lambda
   - netlify functions
+  - JAMSTACK
+  - Saving time
 ID: 1647095194201
 resources:
   - name: netlify-deploy-file
