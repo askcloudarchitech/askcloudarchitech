@@ -47,7 +47,7 @@ According to the [Netlify Functions documentation](https://docs.netlify.com/func
 
 After I created my empty main.go file, I also initialized the directory as a Go module. This is not in the docs, but it is the way most Go apps are written, so it seemed like the right thing to do. 
 
-`github.com/askcloudarchitech/askcloudarchitech/netlify/functions/deploy-suceeded`
+`go mod init github.com/askcloudarchitech/askcloudarchitech/netlify/functions/deploy-suceeded`
 
 ### Writing the execution steps
 
@@ -57,11 +57,11 @@ This is the contents of my main.go file. I will explain each line below.
 
 * Lines 1-11 - Set the package as main and add any necessary imports. If you are using VScode with the Go tools installed, it will add many of these imports automatically, but you will need most of these (minus the `mediumautopost` package which is my custom code for my functionality)
 * Lines 13-19 - For my specific functionality, I needed this function to only run for production deployments (and not test environments). To accomplish this, I needed to get the `payload.context` property from the body of the request which kicks off this function. These two Structs represent the data structure of the request body which will get me that one value. NOTE: see the next section for more on this. This part is not documented anywhere and I had to just figure it out. 
-* line 21 - the handler function is from the [Netlify functions go example](https://docs.netlify.com/functions/build-with-go/#synchronous-function-format). It is the function that is called by AWS lambda when this function executes. 
-* lines 23-24 - Unmarshal the request body to the Request body type that I mentioned above. Again, see below for more on this.
-* lines 26-30 - This is the actual functionality of my `mediumautopost` tool. If this is a production build, run the medium auto-post tool, otherwise print a message indicating that the step was skipped.
-* lines 32-36 - Send back a 200 response indicating success.
-* lines 39-41 - This is the main function as defined in the example on the Netlify site listed above. 
+* Line 21 - The handler function is from the [Netlify functions go example](https://docs.netlify.com/functions/build-with-go/#synchronous-function-format). It is the function that is called by AWS lambda when this function executes. 
+* Lines 23-24 - Unmarshal the request body to the Request body type that I mentioned above. Again, see below for more on this.
+* Lines 26-30 - This is the actual functionality of my `mediumautopost` tool. If this is a production build, run the medium auto-post tool, otherwise print a message indicating that the step was skipped.
+* Lines 32-36 - Send back a 200 response indicating success.
+* Lines 39-41 - This is the main function as defined in the example on the Netlify site listed above. 
 
 ### Debugging the Payload
 
