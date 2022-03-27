@@ -22,7 +22,7 @@ ID: 1648408779555
 resources:
   - name: communication-over-code
     src: communication-over-code.001.jpeg
-    title: communication is critical
+    title: "Communication is Critical "
 ---
 {{< img name="communication-over-code" size="medium" >}}
 
