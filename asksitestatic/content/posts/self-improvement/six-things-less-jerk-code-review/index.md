@@ -30,7 +30,7 @@ ID: 1648858370704
 resources:
   - src: 6-things.001.jpeg
     name: bad-code-review
-    title: "Don't be that person "
+    title: "Don't be that person. "
 ---
 {{< img name="bad-code-review" size="medium" >}}
 
