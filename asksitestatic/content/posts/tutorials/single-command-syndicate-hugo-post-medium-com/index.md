@@ -24,6 +24,7 @@ tags:
   - time saving tools
   - medium REST API
 ID: 1645907948222
+mainImage: thumbnail
 resources:
   - name: thumbnail
     src: medium-auto-post-cli.001.jpeg

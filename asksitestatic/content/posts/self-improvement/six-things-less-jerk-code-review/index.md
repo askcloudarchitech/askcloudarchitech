@@ -27,6 +27,7 @@ tags:
   - constructive feedback
   - positive work environment
 ID: 1648858370704
+mainImage: bad-code-review
 resources:
   - src: 6-things.001.jpeg
     name: bad-code-review

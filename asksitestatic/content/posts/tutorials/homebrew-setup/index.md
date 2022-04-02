@@ -15,6 +15,7 @@ tags:
     - Saving time
     - Starting tools
     - Computer setup
+mainImage: homebrew-homepage
 resources:
     - name: brew-finished-install
       src: "brew-finished-install.png"

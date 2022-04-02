@@ -18,6 +18,7 @@ tags:
   - communication skills
   - developer soft skills
   - active listening
+mainImage: communication-over-code
 ID: 1648408779555
 resources:
   - name: communication-over-code

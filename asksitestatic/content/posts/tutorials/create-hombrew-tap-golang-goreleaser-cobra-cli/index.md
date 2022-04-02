@@ -36,6 +36,7 @@ resources:
   - name: homebrew-tap-repo
     src: homebrew-tap-repo.png
     title: Homebrew Tap repo
+mainImage:
 tags:
   - Go Cobra
   - Homebrew

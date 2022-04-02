@@ -22,6 +22,7 @@ tags:
   - JAMSTACK
   - Saving time
 ID: 1647095194201
+mainImage: netlify-functions
 resources:
   - name: netlify-deploy-file
     title: File location netlify/functions/deploy-succeeded

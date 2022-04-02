@@ -30,9 +30,10 @@ collections:
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Draft', name: 'draft', widget: 'hidden', default: false}
       - { label: 'Keywords', name: 'keywords', widget: 'array'}
-      - { label: 'Categories', name: 'categories', widget: 'array'}
+      - { label: 'Categories', name: 'categories', widget: 'array', required: false}
       - { label: 'Tags', name: 'tags', widget: 'array'}
       - { label: 'ID' , name: 'ID', widget: 'uniqueID' }
+      - { label: 'Main Image Name', name: 'mainImage', widget: 'text', required: false }
       - label: 'Images'
         name: 'resources'
         widget: 'list'

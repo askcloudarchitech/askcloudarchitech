@@ -15,6 +15,7 @@ tags:
     - Work Stress
     - Work Ninja
     - Team Efficiency
+mainImage:
 ---
 
 {{< youtube Mu7BCzSCtC0 >}}

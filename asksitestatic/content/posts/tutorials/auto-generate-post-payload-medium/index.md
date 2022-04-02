@@ -27,6 +27,7 @@ tags:
     - golang
     - hugo
     - JAMSTACK
+mainImage:
 resources:
     - name: collection-run-output
       src: "collection-run-output.png"

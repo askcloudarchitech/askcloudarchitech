@@ -33,6 +33,7 @@ tags:
   - audio
   - monitors
 ID: 1648916280766
+mainImage: desk-top-view
 resources:
   - src: img_1689.jpg
     name: desk-top-view
