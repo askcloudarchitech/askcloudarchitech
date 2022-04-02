@@ -10,19 +10,34 @@ categories:
 tags:
   - "123"
 ID: 1648916280766
+resources:
+  - src: img_1689.jpg
+    name: desk-top-view
+    title: "My Desk Setup! "
+  - src: img_1694.jpg
+    name: plantronics-savi
+    title: Plantronics Savi DECT Headset
+  - src: img_1692.jpg
+    name: audio-technica-mic
+    title: Audio-Technica AT2040
 ---
 Working from home for over 10 years now, I've gone through my share of home office equipment. Some things have been great and others not so much. After much trial and error, here are the 10 products that I've found to make up my current home office set-up.
 
-And just to prove that I actually stand behind these products, and I'm not just stacking up a bunch of affiliate links, here's a picture of my desk with all of these products on display
+And just to prove that I actually stand behind these products, and I'm not just stacking up a bunch of affiliate links, here's a picture of my desk with all of these products on display:
 
-![](img_1689.jpg)
+{{< img name="desk-top-view" size="large" >}}
 
 1. [Plantronics Savi 8200 Series Wireless Dect Headset System](https://amzn.to/37bPlOQ) - This headset system is amazing! The sound quality is fantastic and the range is incredible. I can walk around my house and still be on a call.
 
    If you're looking for the best wireless headset on the market, the Plantronics Savi 8200 Series is the way to go. This top-of-the-line headset offers an incredible range and all-day battery life, so you can stay connected even if you're moving around your home. I've been using this headset for four years now and it's never let me down. The sound quality is amazing, and it's extremely comfortable to wear even during long calls. If you're working from home and need a dependable headset that will give you the freedom to move around, the Savi 8200 Series is the perfect choice.
 
+   {{< img name="plantronics-savi" size="small" >}}
+
    Note: I actually use the **[Plantronics Savi W720](https://amzn.to/3Dy9Ykq)**, but it is no longer manufactured (again, four years). The 8200 is the newer model.
 2. [Audio-Technica at2040](https://amzn.to/3LEPAkr) - This condenser microphone has been a workhorse for me. It's durable, sounds great, and is very affordable. If you're looking for a top-quality microphone that will make you sound great on work calls, the Audio-Technica at2040 is the perfect choice. This highly sensitive microphone picks up every detail of your voice, so you can be confident that you'll be heard clearly. Whether you're leading a conference call or participating in one, the at2040 will ensure that your audio is superb. It's also great for recording music and other audio, so if you're looking for a versatile mic that can do it all, this is the one for you.
+
+   {{< img name="audio-technica-mic" size="small" >}} 
+
 3. [Focusrite Scarlett Solo](https://amzn.to/3LEP6v0) - A good microphone has to be paired with a great audio interface. If you're looking for an interface that will help you sound great on Zoom or Meet calls, look no further than the Focusrite Scarlett Solo. This small and adjustable audio interface is perfect for online meetings, and its "Air" button gives you that great "on-air personality" sound. Plus, the direct headphone monitor lets you hear yourself as you speak, so you can make sure your audio is always on point.
 4. [TCL 43s423](https://amzn.to/3tZ2ZOv) - Looking for a new computer monitor that will really let you spread out and get work done? Check out the TCL 43s423. This 43-inch 4K TV is perfect for use as a computer monitor. It has a "computer" mode which makes it ideal for use as a monitor, and its large size lets you really spread out your work. Plus, the 4K resolution ensures that you'll have plenty of detail and clarity. So why not ditch your old monitor and upgrade to the TCL 43s423? You won't be disappointed.
 5. [Apple MacBook pro m1 14 inch](https://amzn.to/3iWdRpQ) - Introducing the newest addition to my lineup, the MacBook pro M1 14-inch laptop. This machine is fast and powerful, with great battery life to keep you going all day long. Plus, its ultra-quiet design means you can work in peace without any noisy distractions.
