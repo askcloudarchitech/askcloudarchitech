@@ -13,7 +13,7 @@ ID: 1648916280766
 ---
 Working from home for over 10 years now, I've gone through my share of home office equipment. Some things have been great and others not so much. After much trial and error, here are the 10 products that I've found to make up my current home office set-up.
 
-And just to prove that I actually stand behind this products, and I'm not just stacking up a bunch of affiliate links, here's a picture of my desk with all of these products on display
+And just to prove that I actually stand behind these products, and I'm not just stacking up a bunch of affiliate links, here's a picture of my desk with all of these products on display
 
 ![](img_1689.jpg)
 
