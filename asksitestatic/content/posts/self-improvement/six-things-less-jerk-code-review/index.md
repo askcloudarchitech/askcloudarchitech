@@ -40,7 +40,7 @@ But it doesn't have to be that way! If you come into a code review with an open 
 
 We're all human, and we all make mistakes. Remember that everyone is learning, and give people the benefit of the doubt. Being a helpful and constructive code reviewer is all about striking the right balance, and these tips should help you get there.
 
-## Give constructive feedback instead of unhelpful corrections
+## Give Constructive Feedback Instead of Unhelpful Corrections
 
 When giving feedback during a code review, it's important to be constructive. This means pointing out the flaws in someone's code without being critical or nit-picky. Here are a few tips on how to do that:
 
@@ -48,9 +48,9 @@ When giving feedback during a code review, it's important to be constructive. Th
 * Be specific. Don't just say "this code is bad." Say "these are the problems I see with this code, and here's how you could fix them."
 * Frame your feedback in terms of solutions, not problems. For example, instead of saying "you need to fix this bug," say "I think this would be a good time to add a unit test for this function."
 * Avoid using negative language. Saying things like "you're doing it wrong" or "this is broken" will only make the reviewer defensive and less likely to listen to your feedback.
-*Be patient. Code reviews can be frustrating, but it's important to remember that the person you're reviewing is probably not a mind reader. They need time to digest your feedback and implement changes.
+* Be patient. Code reviews can be frustrating, but it's important to remember that the person you're reviewing is probably not a mind reader. They need time to digest your feedback and implement changes.
 
-## Ask questions instead of giving orders
+## Ask Questions Instead of Giving Orders
 
 When giving feedback during a code review, try framing your comments as questions instead of orders. This will help the reviewer feel like you're on their side, and that you're both working together to improve the code. For example:
 
@@ -73,19 +73,19 @@ Another way to come across as less of a jerk is to be respectful and polite. Thi
 
 Remember, the person you're reviewing is likely a colleague or peer, and there's no need to be nasty or insulting. You might need their help someday and you'll be glad they're still speaking to you!
 
-## We've all been there before
+## We’ve All Been There Before
 
 When you're reviewing someone's code, it's important to remember that you have been in their shoes before. You were once a beginner too, and you probably made plenty of mistakes along the way.
 
 This is why it's important to be patient and understanding when working with other developers. Wouldnt it be great if we could all have a mentor who treated us like a peer?
 
-## Gain the respect of your peers by being the conscientious reviewer
+## Gain the Respect of Your Peers by Being the Conscientious Reviewer
 
 When you're known as the person who is always willing to help and give constructive feedback, you will gain the respect of your peers. This means being conscientious in your reviews and taking the time to provide thorough and well-thought-out feedback.
 
 By being respectful, your teammates will look up to you, instead of fearing you as the nit-picky, critical reviewer. This will help to create a more positive and constructive environment in which everyone can work together and improve their codebase.
 
-## Improve yourself by helping others to improve
+## Improve Yourself by Helping Others To Improve
 
 These are just a few tips to help you avoid coming across as a jerk when giving feedback. By following them, you can help make the experience a little less painful for everyone involved.
 
