@@ -15,6 +15,8 @@ Working from home for over 10 years now, I've gone through my share of home offi
 
 And just to prove that I actually stand behind this products, and I'm not just stacking up a bunch of affiliate links, here's a picture of my desk with all of these products on display
 
+![](img_1689.jpg)
+
 1. [Plantronics Savi 8200 Series Wireless Dect Headset System](https://amzn.to/37bPlOQ) - This headset system is amazing! The sound quality is fantastic and the range is incredible. I can walk around my house and still be on a call.
 
    If you're looking for the best wireless headset on the market, the Plantronics Savi 8200 Series is the way to go. This top-of-the-line headset offers an incredible range and all-day battery life, so you can stay connected even if you're moving around your home. I've been using this headset for four years now and it's never let me down. The sound quality is amazing, and it's extremely comfortable to wear even during long calls. If you're working from home and need a dependable headset that will give you the freedom to move around, the Savi 8200 Series is the perfect choice.
