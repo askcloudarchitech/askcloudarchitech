@@ -72,7 +72,7 @@ And just to prove that I actually stand behind these products, and I'm not just 
    {{< img name="plantronics-savi" size="small" >}}
 
    Note: I actually use the **[Plantronics Savi W720](https://amzn.to/3Dy9Ykq)**, but it is no longer manufactured (again, four years). The 8200 is the newer model.
-2. [Audio-Technica AT2040](https://amzn.to/3LEPAkr) - This condenser microphone has been a workhorse for me. It's durable, sounds great, and is very affordable. If you're looking for a top-quality microphone that will make you sound great on work calls, the Audio-Technica at2040 is the perfect choice. This highly sensitive microphone picks up every detail of your voice, so you can be confident that you'll be heard clearly. Whether you're leading a conference call or participating in one, the at2040 will ensure that your audio is superb. It's also great for recording music and other audio, so if you're looking for a versatile mic that can do it all, this is the one for you.
+2. [Audio-Technica AT2040](https://amzn.to/3LEPAkr) - This dynamic microphone has been a workhorse for me. It's durable, sounds great, and is very affordable. If you're looking for a top-quality microphone that will make you sound great on work calls, the Audio-Technica AT2040 is the perfect choice. This highly sensitive microphone picks up every detail of your voice, so you can be confident that you'll be heard clearly. Whether you're leading a conference call or participating in one, the AT2040 will ensure that your audio is superb. It's also great for recording music and other audio, so if you're looking for a versatile mic that can do it all, this is the one for you.
 
    {{< img name="audio-technica-mic" size="small" >}} 
 
