@@ -27,7 +27,7 @@ mainImage: devops
 resources:
   - src: devops.001.jpeg
     name: devops
-    title: "A Simple Idea. "
+    title: "Development + Operations = DevOps. "
 ---
 {{< img name="devops" size="large" >}}
 
