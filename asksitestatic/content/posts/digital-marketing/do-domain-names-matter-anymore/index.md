@@ -28,6 +28,8 @@ resources:
     src: domain-name.001.jpeg
     title: "Domain names don't matter. "
 ---
+{{< img name="domain-name-seo-who-cares" size="large" >}}
+
 Let me ask you a question and I want you to really think about it for a minute. Other than Google or Amazon or something obvious, when was the last time you actually put your cursor in the address bar and went to a website by typing the domain name?
 
 If you can't think of a time, don't worry, because chances are neither can anyone else.
