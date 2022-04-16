@@ -1,57 +1,60 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}" prefix="og: http://ogp.me/ns#" class="color-toggle-hidden">
-
-<head>
+<html
+  lang="{{ .Site.Language.Lang }}"
+  prefix="og: http://ogp.me/ns#"
+  class="color-toggle-hidden"
+>
+  <head>
     {{ partial "head/meta" . }}
-    <title>{{ if not (eq .Kind "home") }}{{ partial "title" . }} | {{ end }} Tips, Tricks and Work Hacks for Software Development Professionals | {{ .Site.Title }}</title>
+    <title>
+      {{ if not (eq .Kind "home") }} {{ partial "title" . }} {{ else }}Tips,
+      Tricks and Work Hacks for Software Development Professionals {{ end }} |
+      {{ .Site.Title }}
+    </title>
 
-    {{ partial "head/favicons" . }}
-    {{ partial "head/rel-me" . }}
-    {{ partial "head/microformats" . }}
-    {{ partial "head/others" . }}
-    {{ partial "head/schema" . }}
-    {{ partial "head/custom" . }}
-    {{ if eq .Kind "home" }} <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> {{ end }}
-</head>
+    {{ partial "head/favicons" . }} {{ partial "head/rel-me" . }} {{ partial
+    "head/microformats" . }} {{ partial "head/others" . }} {{ partial
+    "head/schema" . }} {{ partial "head/custom" . }} {{ if eq .Kind "home" }}
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {{ end }}
+  </head>
 
-<body itemscope itemtype="https://schema.org/WebPage">
+  <body itemscope itemtype="https://schema.org/WebPage">
     {{ partial "svg-icon-symbols" . }}
 
-    <div class="wrapper {{ if default false .Site.Params.GeekdocDarkModeDim }}dark-mode-dim{{ end }}">
-        <input type="checkbox" class="hidden" id="menu-control" />
-        <input type="checkbox" class="hidden" id="menu-header-control" />
-        {{ $navEnabled := default true .Page.Params.GeekdocNav }}
-        {{ partial "site-header" (dict "Root" . "MenuEnabled" $navEnabled) }}
+    <div
+      class="wrapper {{ if default false .Site.Params.GeekdocDarkModeDim }}dark-mode-dim{{ end }}"
+    >
+      <input type="checkbox" class="hidden" id="menu-control" />
+      <input type="checkbox" class="hidden" id="menu-header-control" />
+      {{ $navEnabled := default true .Page.Params.GeekdocNav }} {{ partial
+      "site-header" (dict "Root" . "MenuEnabled" $navEnabled) }}
 
-        <main class="container flex flex-even">
-            {{ if $navEnabled }}
-            <aside class="gdoc-nav">
-                {{ partial "menu" . }}
-            </aside>
-            {{ end }}
+      <main class="container flex flex-even">
+        {{ if $navEnabled }}
+        <aside class="gdoc-nav">{{ partial "menu" . }}</aside>
+        {{ end }}
 
-            <div class="gdoc-page">
-                {{ template "main" . }}
-                {{ partial "page-footer" . }}
-            </div>
-        </main>
+        <div class="gdoc-page">
+          {{ template "main" . }} {{ partial "page-footer" . }}
+        </div>
+      </main>
 
-        {{ partial "site-footer" . }}
+      {{ partial "site-footer" . }}
     </div>
 
-    {{ partial "foot" . }}
-    {{ if eq .Kind "home" }}
+    {{ partial "foot" . }} {{ if eq .Kind "home" }}
     <script>
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", user => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              });
-            }
-          });
-        }
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
     </script>
     {{ end }}
-</body>
+  </body>
 </html>
