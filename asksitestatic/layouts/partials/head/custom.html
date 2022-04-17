@@ -1,13 +1,36 @@
-<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+  integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5"
+  crossorigin="anonymous"
+/>
 
 {{ if eq (getenv "HUGO_ENV") "production" }}
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QJ8QVPTKBZ"></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-QJ8QVPTKBZ"
+></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
-  gtag('config', 'G-QJ8QVPTKBZ');
+  gtag("config", "G-QJ8QVPTKBZ");
+</script>
+<script id="mcjs">
+  !(function (c, h, i, m, p) {
+    (m = c.createElement(h)),
+      (p = c.getElementsByTagName(h)[0]),
+      (m.async = 1),
+      (m.src = i),
+      p.parentNode.insertBefore(m, p);
+  })(
+    document,
+    "script",
+    "https://chimpstatic.com/mcjs-connected/js/users/421392ab7e0ce2293355a111f/d3b80332160d91b63def51217.js"
+  );
 </script>
 {{ end }}
