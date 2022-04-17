@@ -13,7 +13,7 @@ pluralizeListTitles = false
 [params]
     geekdoclogo = "brand.svg"
     geekdocBreadcrumb = true
-    geekdocCollapseAllSections = true
+    geekdocCollapseAllSections = false
     # (Optional, default false) Enable or disable adding tags for post pages automatically to the navigation sidebar.
     geekdocTagsToMenu = true
 
