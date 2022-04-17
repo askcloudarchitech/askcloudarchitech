@@ -1,6 +1,7 @@
 {{ $source := ($.Page.Resources.ByType "image").GetMatch (printf "%s" (.Get "name")) }}
 {{ $customAlt := .Get "alt" }}
 {{ $customSize := .Get "size" }}
+{{ $showcaption := .Get "showcaption" | default true}}
 {{ $lazyLoad := default (default true $.Site.Params.GeekdocImageLazyLoading) (.Get "lazy") }}
 
 {{ with $source }}
@@ -21,8 +22,10 @@
             <img {{ if $lazyLoad }}loading="lazy" {{ end }}src="{{ $size.large }}" alt="{{ $caption }}" />
         </picture>
     </a>
+    {{ if $showcaption -}}
     {{ with $caption -}}
     <figcaption>{{ . }}{{ with $source.Params.credits }} ({{ . | $.Page.RenderString }}){{ end }}</figcaption>
+    {{- end }}
     {{- end }}
 </figure>
 </div>

@@ -8,44 +8,54 @@ logo_url: https://askcloudarchitech.com/brand.svg
 publish_mode: editorial_workflow
 show_preview_links: true
 collections:
-  - name: 'posts'
-    label: 'Posts'
-    label_singular: 'Post'
-    folder: 'asksitestatic/content/posts'
-    media_folder: ''
-    public_folder: ''
+  - name: "posts"
+    label: "Posts"
+    label_singular: "Post"
+    folder: "asksitestatic/content/posts"
+    media_folder: ""
+    public_folder: ""
     extension: md
     format: yaml-frontmatter
     create: true
     nested:
       depth: 100 # max depth to show in the collection tree
-      summary: '{{title}}'
-    slug: '{{slug}}'
+      summary: "{{title}}"
+    slug: "{{slug}}"
     editor:
       preview: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string', default: '' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Description', name: 'description', widget: 'text' }
-      - { label: 'Draft', name: 'draft', widget: 'hidden', default: false}
-      - { label: 'Keywords', name: 'keywords', widget: 'array'}
-      - { label: 'Categories', name: 'categories', widget: 'array', required: false}
-      - { label: 'Tags', name: 'tags', widget: 'array'}
-      - { label: 'ID' , name: 'ID', widget: 'uniqueID' }
-      - { label: 'Main Image Name', name: 'mainImage', widget: 'string', required: false }
-      - label: 'Images'
-        name: 'resources'
-        widget: 'list'
-        summary: '{{fields.name}}'
+      - { label: "Title", name: "title", widget: "string", default: "" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Draft", name: "draft", widget: "hidden", default: false }
+      - { label: "Keywords", name: "keywords", widget: "array" }
+      - {
+          label: "Categories",
+          name: "categories",
+          widget: "array",
+          required: false,
+        }
+      - { label: "Tags", name: "tags", widget: "array" }
+      - { label: "ID", name: "ID", widget: "uniqueID" }
+      - {
+          label: "Main Image Name",
+          name: "mainImage",
+          widget: "string",
+          required: false,
+        }
+      - label: "Images"
+        name: "resources"
+        widget: "list"
+        summary: "{{fields.name}}"
         fields:
-          - label: 'name'
-            name: 'name'
-            widget: 'string'
-          - label: 'src'
-            name: 'src'
-            widget: 'image'
-          - label: 'title'
-            name: 'title'
-            widget: 'string'
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+          - label: "name"
+            name: "name"
+            widget: "string"
+          - label: "src"
+            name: "src"
+            widget: "image"
+          - label: "title"
+            name: "title"
+            widget: "string"
+    meta: { path: { widget: string, label: "Path", index_file: "index" } }

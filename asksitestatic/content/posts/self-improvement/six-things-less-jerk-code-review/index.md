@@ -33,7 +33,8 @@ resources:
     name: bad-code-review
     title: "Don't be that person. "
 ---
-{{< img name="bad-code-review" size="medium" >}}
+
+{{< img name="bad-code-review" size="medium" showcaption=false >}}
 
 In software development, doing a code review is often seen as a chore or a rubber stamp requirement for quality control. Because of this, it's easy to rush through and look like a total jerkface while doing it.
 
@@ -45,20 +46,20 @@ We're all human, and we all make mistakes. Remember that everyone is learning, a
 
 When giving feedback during a code review, it's important to be constructive. This means pointing out the flaws in someone's code without being critical or nit-picky. Here are a few tips on how to do that:
 
-* Start by highlighting the good things. This will help put the reviewer in a more positive frame of mind and make them more receptive to your feedback.
-* Be specific. Don't just say "this code is bad." Say "these are the problems I see with this code, and here's how you could fix them."
-* Frame your feedback in terms of solutions, not problems. For example, instead of saying "you need to fix this bug," say "I think this would be a good time to add a unit test for this function."
-* Avoid using negative language. Saying things like "you're doing it wrong" or "this is broken" will only make the reviewer defensive and less likely to listen to your feedback.
-* Be patient. Code reviews can be frustrating, but it's important to remember that the person you're reviewing is probably not a mind reader. They need time to digest your feedback and implement changes.
+- Start by highlighting the good things. This will help put the reviewer in a more positive frame of mind and make them more receptive to your feedback.
+- Be specific. Don't just say "this code is bad." Say "these are the problems I see with this code, and here's how you could fix them."
+- Frame your feedback in terms of solutions, not problems. For example, instead of saying "you need to fix this bug," say "I think this would be a good time to add a unit test for this function."
+- Avoid using negative language. Saying things like "you're doing it wrong" or "this is broken" will only make the reviewer defensive and less likely to listen to your feedback.
+- Be patient. Code reviews can be frustrating, but it's important to remember that the person you're reviewing is probably not a mind reader. They need time to digest your feedback and implement changes.
 
 ## Ask Questions Instead of Giving Orders
 
 When giving feedback during a code review, try framing your comments as questions instead of orders. This will help the reviewer feel like you're on their side, and that you're both working together to improve the code. For example:
 
-* Instead of saying "you need to fix this bug," say "should we fix this bug?"
-* Instead of saying "this code is wrong," say "is this the right way to do this?"
-* Instead of saying "you're doing it wrong," say "what was your thinking here?"
-* Ask for their opinion. For example, say "do you think this change is worth making?" or "would you have done it differently?"
+- Instead of saying "you need to fix this bug," say "should we fix this bug?"
+- Instead of saying "this code is wrong," say "is this the right way to do this?"
+- Instead of saying "you're doing it wrong," say "what was your thinking here?"
+- Ask for their opinion. For example, say "do you think this change is worth making?" or "would you have done it differently?"
 
 ## Avoid Nitpicking
 

@@ -25,7 +25,8 @@ resources:
     src: communication-over-code.001.jpeg
     title: "Communication is Critical "
 ---
-{{< img name="communication-over-code" size="medium" >}}
+
+{{< img name="communication-over-code" size="medium" showcaption=false >}}
 
 OK, so stop me if you've heard this one before... A developer walks into a room full of stakeholders in a project kickoff meeting. The developer listens to two minutes of the "problem" statement and immediately starts spitting out a bunch of technical mumbo jumbo, assuming they know EXACTLY how to solve this issue.
 
@@ -73,12 +74,12 @@ It's not the client's job to know the technical junk, that's your job. So be pat
 
 Now that you know some of the basics of communication, let's take a look at some common communication pitfalls that web developers often fall into.
 
-* Saying something is "easy" - Just because something is easy for you doesn't mean it's easy for everyone. When you're explaining a concept to someone, try to avoid using the word "easy."
-* Starting to design solutions on the fly - It's important to take the time to really understand the problem before starting to design a solution. Otherwise, you may end up wasting time on a solution that doesn't actually solve the problem.
-* Interrupting people - This one is pretty self-explanatory! Let people finish their thoughts before jumping in with your own ideas.
-* Talking too much - Sometimes, less is more. It's important to give people the opportunity to ask questions and contribute their own ideas.
-* Not listening enough - This is perhaps the most important communication skill for a web developer. You need to be able to listen carefully to understand what people are saying.
-* Making assumptions - Never assume that you know what someone is thinking or that they understand what you're saying. This can lead to miscommunication and frustration on both sides.
+- Saying something is "easy" - Just because something is easy for you doesn't mean it's easy for everyone. When you're explaining a concept to someone, try to avoid using the word "easy."
+- Starting to design solutions on the fly - It's important to take the time to really understand the problem before starting to design a solution. Otherwise, you may end up wasting time on a solution that doesn't actually solve the problem.
+- Interrupting people - This one is pretty self-explanatory! Let people finish their thoughts before jumping in with your own ideas.
+- Talking too much - Sometimes, less is more. It's important to give people the opportunity to ask questions and contribute their own ideas.
+- Not listening enough - This is perhaps the most important communication skill for a web developer. You need to be able to listen carefully to understand what people are saying.
+- Making assumptions - Never assume that you know what someone is thinking or that they understand what you're saying. This can lead to miscommunication and frustration on both sides.
 
 ## Should this be a meeting or an email?
 
