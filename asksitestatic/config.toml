@@ -6,7 +6,7 @@ theme = "hugo-geekdoc"
 # Required to get well formatted code blocks
 pygmentsUseClasses = true
 pygmentsCodeFences = true
-disablePathToLower = true
+disablePathToLower = false
 enableGitInfo = false
 pluralizeListTitles = false
 
