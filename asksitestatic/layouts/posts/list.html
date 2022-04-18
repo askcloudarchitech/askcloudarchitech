@@ -14,7 +14,7 @@
                 <h1 class="gdoc-post__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
             </header>
             <div class="summary-flex">
-                <div class="summary-image"> <a href="{{ .RelPermalink }}"><img src="{{ $source.RelPermalink }}" /></a></div>
+                <div class="summary-image"> <a href="{{ .RelPermalink }}"><img src="{{ $source.RelPermalink }}" alt="{{ $source.Title }}" /></a></div>
                 <section>
                     {{ .Summary }}
                 </section>
