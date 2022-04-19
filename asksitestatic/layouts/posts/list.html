@@ -47,7 +47,9 @@
                 {{ with .Params.tags }}
                 {{ range sort . }}
                     {{ $name := . }}
-                    {{ with $.Site.GetPage (printf "/tags/%s" $name | urlize) }}
+                    {{ $page := $.Site.GetPage (printf "/tags/%s" $name | urlize) }}
+                    {{ if gt $page.Data.tag.Count 1 }}
+                    {{ with $page }}
                         {{ if eq $tc 0 }}
                         <span class="no-wrap">
                         <svg class="icon gdoc_bookmark"><use xlink:href="#gdoc_bookmark"></use></svg>
@@ -58,6 +60,7 @@
                         {{ end }}
                     {{ end }}
                     {{ $tc = (add $tc 1) }}
+                    {{ end }}
                 {{ end }}
                 {{ end }}
             </footer>
