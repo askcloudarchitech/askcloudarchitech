@@ -1,12 +1,24 @@
 ---
 title: I Made a Local Kubernetes Startup Script So You Don't Have To
 date: 2022-04-23T14:24:42.088Z
-description: sdf
+description: If you are getting started with Kubernetes development, one of the
+  first things you are going to need is a way to run Kubernetes on your
+  computer. There are a bunch of different ways to startup Kubernetes locally,
+  but almost all of them either have a bunch of complicated steps or require you
+  to understand Kubernetes in the first place (which kind of defeats the
+  purpose). So to solve that problem for you (and myself, honestly) I wrote a
+  simple Kubernetes startup script that will get you a running local cluster in
+  no time.
 draft: false
 keywords:
-  - sfd
+  - kubernetes
+  - kind
+  - kubernetes startup script
+  - local kubernetes
+  - local kubernetes startup
 tags:
-  - sf
+  - kubernetes
+  - kind
 ID: 1650723882016
 mainImage: local-kubernetes-startup-script
 resources:
@@ -47,6 +59,12 @@ Should now be able to run `kubectl get pods` and see that the cluster responds.
 
 ### Local repository
 
-This script installs the Kind local registry. You can read more about there [here](https://kind.sigs.k8s.io/docs/user/local-registry/)
+This script installs the Kind local registry. You can read more about that [here](https://kind.sigs.k8s.io/docs/user/local-registry/). Essentially, this script allows you to push your containers to a local registry instead of Docker hub or other public registries so you can test things out. 
 
 ### Ingress controller
+
+This script installs the NGINX ingress controller Kubernetes automatically. One feature that always seems missing from a local Kubernetes cluster is a way to use Ingress objects properly. This script handles that part for you. Just create an ingress for the localhost domain and you are all set. 
+
+### Simple up and down
+
+As mentioned above, this local Kubernetes startup script has a super simple command which will save you a ton of time in the long run. Just run `lk8s up` and `lk8s down`. It's that simple.
