@@ -1,7 +1,8 @@
 {{ define "main" }}
 {{ partial "page-header" . }}
 
-    {{ range first 10 .Site.RegularPages }}
+{{ $paginator := .Paginate (first 50 .Site.RegularPages) }}
+{{ range $paginator.Pages }}
         {{ if ne .Type "common-questions" }}
 
         {{ $source := "" }}
@@ -67,8 +68,9 @@
                 {{ end }}
             </footer>
         </article>
-        {{end}}
+        {{ end }}
     {{ end }}
+{{ template "_internal/pagination.html" . }}
     
     <div id="amzn-assoc-ad-2e9c42c2-e729-4886-89b3-e8201e8e11a1"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=2e9c42c2-e729-4886-89b3-e8201e8e11a1"></script>
 
