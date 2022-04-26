@@ -9,7 +9,7 @@ tags:
   - "123"
 ID: 1650837057854
 ---
-blah blah intro
+It's time for a little self-reflection. Take a little time to think back over every single project you have ever created. OK, now right at this moment, what are you think about? Are you thinking about the code? Are you remembering the language, the functions, the classes? Or, are you think about what the project did? About the problem it solved? 
 
 ## A brief history of bad READMEs
 
