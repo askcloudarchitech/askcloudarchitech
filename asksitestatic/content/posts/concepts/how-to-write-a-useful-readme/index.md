@@ -61,21 +61,21 @@ Before we dive into why you want a good README and how to make one, let's take a
 
 I hope the section above made you feel both **ashamed of yourself** for the complete dumpster fire you have spread across the internet as well as **motivated** to make it right! A well-written README has the potential to be **so much more than just another piece of documentation**. Let's take a moment to consider the **massive benefits** of a README written with purpose.
 
-**SEO benefit -**
+**SEO benefit -** When people search for solutions, they dont exactly go to the old googly box and start typing code examples. What do they do, they type out the functionality they are looking for. If you can write a  good README with a strong, **keyword rich explanation** of your project's functionality, there's a good chance **search engines will pick it up** and put it in front of you future users/contributors. 
 
-**Gain users -**
+**Gain users -** You want your super awesome project to be **popular**, right? Well, without a readme (or really any of those READMEs listed above) you won't exactly be pulling in your next biggest fans. As a matter of fact, you may actually be confusing them or scaring them away. **Write a solid README and the users will come!**
 
-**Gain contributors -**
+**Gain contributors -** You can't continue to make this totally awsome project of yours completly on your own (yeah I'm talking to you), **you need contributors!** And... if you want to gain contributors you need people who like what you made so much that **they want to help** make it better. READMEs serve **two purposes** here: 1 **attract** your future contributer and, 2 **explain** how to actually contribute (but more on that later)
 
-**Remind yourself later -**
+**Remind yourself later -** I'm not the only one with this problem, right? You made something cool and you know generally that it exists, but forget some of the important details. If there is one reason to write a README it might be this. Write it for your forgetful future self. Seriously, you'll get old too. And you will forget stuff. 
 
-**Reduce reported issues -**
+**Reduce reported issues -** Steam is starting to coming out of my ears just thinking about this. You want to know the most aggrivating part of software development? When you know that your project has a bug or known issue and someone reports it to you like don't already know. Having someone explain to you in great detail that known issue you already wasted like 30 hours on is THE WORST. So... avoid that situation alltogether by simply adding a "known issues" section to your README. This will work like a charm (unless that annoying issue reporter also doesnt read).
 
-**Make money? -**
+**Make money? -** hey, why not?! You can totally make money from a README. More on that in the next section. 
 
 ## How to craft a useful, well-written README
 
-learn markdown - it's your friend
+**learn markdown -** 
 
 start with a strong h1 title and an h2 subtitle giving a short summary of the purpose of the project
 
