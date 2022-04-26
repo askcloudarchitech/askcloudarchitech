@@ -9,9 +9,15 @@ tags:
   - "123"
 ID: 1650837057854
 ---
-It's time for a little self-reflection. Take a little time to think back over every single project you have ever created. OK, now right at this moment, what are you think about? Are you thinking about the code? Are you remembering the language, the functions, the classes? Or, are you think about what the project did? About the problem it solved? 
+It's time for a little self-reflection. Take a little time to think back over every single project you have ever created. OK, now right at this moment, what are you thinking about? Are you thinking about the code? Are you remembering the language, the functions, the classes? Or, are you think about what the project did? Are you thinking about the problem it solved? Well, if you are like most people in this world, you are thinking about the latter. After all the code is written and the tool you poured your heart and soul into is done, the code itself doesn't really matter, does it? 
+
+So that begs the question if the problem you solved is more important than how you solved it, why is it that the one single file in your project that actually focuses on the functionality is the one that is most commonly ignored? You know what file I'm talking about, right? The README! 
+
+Let's be honest for a minute, all of your READMEs are afterthoughts. They are a chore that needs to be done. Well, today IS the day that you could turn all of that around. Today you could choose to give the README all of the respect that it deserves! Come with me on a journey into the README. What it is now, what it could be, and what it could mean for you and your project when done CORRECTLY. 
 
 ## A brief history of bad READMEs
+
+
 
 The one liner
 
