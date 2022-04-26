@@ -1,12 +1,38 @@
 ---
 title: Your README is a Dumpster Fire - It's Time to Fix That
 date: 2022-04-24T21:50:57.931Z
-description: description
+description: Let's be honest for a minute, all of your READMEs are
+  afterthoughts. They are a chore that needs to be done. Well, today IS the day
+  that you could turn all of that around. Today you could choose to give your
+  READMEs all of the respect that they deserve! Come with me on a journey into
+  your README dumpster fire. What it is now, what it could be, and what it could
+  mean for you and your project when done CORRECTLY.
 draft: false
 keywords:
-  - "123"
+  - README
+  - software development
+  - open source
+  - documentation
+  - README.md
+  - README SEO
+  - SEO
+  - github
+  - git
+  - documentation
+  - coding
+  - software
+  - description
+  - code examples
+  - code contribution
+  - open source
+  - open source software
+  - development
+  - web development
 tags:
-  - "123"
+  - README
+  - development
+  - documentation
+  - best practices
 ID: 1650837057854
 ---
 It's time for a little self-reflection. 
@@ -25,31 +51,31 @@ Before we dive into why you want a good README and how to make one, let's take a
 
 **The ghost -** If there is anything **worse than the one-liner**, it's the ghost. In this case, you couldn't even be bothered to check the box in Github to auto-generate your README. The **README literally doesn't exist.** If your project doesn't have a README, it's just a useless pile of code clogging up the interwebs. 
 
-**The over-explainer -** 
+**The over-explainer -** Ah yes, the **exact opposite of the ghost** is the over-explainer. You know, the one where the README is so **long and complicated** that nobody would ever possibly take the time to read the whole thing? READMEs are made to be a summary, not all of your comments compiled into doc.
 
-**The out-of-date -** 
+**The out-of-date -** This one is **all-to-common**. You **started with good intentions** and wrote a README worth actually reading, but then, slowly, everything started to fall apart. A refactor of a whole portion of the app wasn't documented. A brand new set of config was completely forgotten. The architecture diagram is completly out of whack. This README is quite possibly the worst because it can be **completely mileading**. The poor soul who tried to follow your **three year old instructions** hates you right now. 
 
-**The broken promise -** 
+**The broken promise -** I'll spare you the dramatics and simply leave you with this: "README coming soon!" *Facepalm.*
 
 ## Benefits of a well-written README
 
 I hope the section above made you feel both **ashamed of yourself** for the complete dumpster fire you have spread across the internet as well as **motivated** to make it right! A well-written README has the potential to be **so much more than just another piece of documentation**. Let's take a moment to consider the **massive benefits** of a README written with purpose.
 
-SEO benefit
+**SEO benefit -**
 
-Gain users
+**Gain users -**
 
-Gain contributors
+**Gain contributors -**
 
-Remind yourself later
+**Remind yourself later -**
 
-Reduce reported issues
+**Reduce reported issues -**
 
-Make money?
+**Make money? -**
 
 ## How to craft a useful, well-written README
 
-learn markdown - its your friend
+learn markdown - it's your friend
 
 start with a strong h1 title and an h2 subtitle giving a short summary of the purpose of the project
 
