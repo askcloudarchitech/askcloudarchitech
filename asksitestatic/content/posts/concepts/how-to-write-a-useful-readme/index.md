@@ -75,22 +75,18 @@ I hope the section above made you feel both **ashamed of yourself** for the comp
 
 ## How to craft a useful, well-written README
 
-**learn markdown -** 
+**Learn Markdown -** Just In case you are a ghoster or a or a one-liner from above, I think its important to point out that README files are written in Markdown. Markdown is super easy to learn might even be worth committing to memory. Don't know markdown? [Here's a great doc](https://www.markdownguide.org/) on how it all works.
 
-start with a strong h1 title and an h2 subtitle giving a short summary of the purpose of the project
+I think if you've made it this far through this post, you have just gotta be super PUMPED about getting into this README action! Now that you've seen the failures and you know all the benefits, are you ready to learn, exactly, how to structure a README masterpiece? Let's (finally) get into the details. Here's the list, in order, of elements you should have in your README.
 
-write an intro paragraph about what this project is, what it does and how its used
-
-Explain how to install your project as a consumer - step by step
-
-Explain how to contribute to the project - instructions to a developer on how to use and install. more technical 
-
-If necessary, make a small diagram or animated gif showing it in action
-
-set expectations for contributors - code quality expectations, automated testing etc
-
-Document known issues 
-
-Ask for a contribution!
+1. **A strong H1 title and an H2 subtitle** - Just like writing an article or a blog post, you need a great title and subtitle to attract search engines and humans. It doesn't need to be the name of your project, but it does help if your title includes the name of the project. 
+2. **An intro paragraph focused on what the project *does*** *\-* Write an intro paragraph about what this project is, what it does and how its used
+3. **Another one or two paragraphs explaining the benefits of your project for the user -**
+4. **Diagram (optional) -**  make a small diagram or animated gif showing it in action
+5. **Installation and usage instructions (for end users)**
+6. **Installation and usage instructions (for contributors)**
+7. **Contributor expectations -** code quality expectations, automated testing etc
+8. **Known issues**
+9. **Begging for money!**
 
 keep it up to date. - its just part of the workflow.
