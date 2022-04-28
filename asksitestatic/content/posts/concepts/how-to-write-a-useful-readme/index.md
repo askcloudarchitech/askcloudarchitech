@@ -34,6 +34,11 @@ tags:
   - documentation
   - best practices
 ID: 1650837057854
+mainImage: readme
+resources:
+  - name: readme
+    src: reademe.md-2-.png
+    title: README FIRE
 ---
 It's time for a little self-reflection. 
 
@@ -42,6 +47,8 @@ Take a little time to think back over **every single project you have ever creat
 Well, if you are like most people in this world, you are thinking about the latter. After all the code is written and the tool you poured your heart and soul into is done, **the code itself doesn't really matter, does it?** So that begs the question: if the problem you solved is more important than how you solved it, why is it that the **one single file** in your project that actually focuses on the functionality is the one that's most commonly ignored? You know what file I'm talking about, right? **The README!** 
 
 Let's be honest for a minute, **all of your READMEs are afterthoughts**. They are a chore that needs to be done. Well, today IS the day that you could **turn all of that around**. Today you could choose to give your READMEs all of the **respect that they deserve**! Come with me on a journey into your README dumpster fire. What it is now, what it could be, and what it could mean for you and your project when **done CORRECTLY.** 
+
+{{< img name="readme" size="large" >}}
 
 ## A brief history of bad READMEs
 
@@ -67,26 +74,26 @@ I hope the section above made you feel both **ashamed of yourself** for the comp
 
 **Gain contributors -** You can't continue to make this totally awesome project of yours completely on your own (yeah I'm talking to you), **you need contributors!** And... if you want to gain contributors you need people who like what you made so much that **they want to help** make it better. READMEs serve **two purposes** here: 1 **attract** your future contributor and, 2 **explain** how to actually contribute (but more on that later)
 
-**Remind yourself later -** I'm not the only one with this problem, right? You made something cool and you know generally that it exists, but forget some of the important details. If there is one reason to write a README it might be this. Write it for your forgetful future self. Seriously, you'll get old too. And you will forget stuff. 
+**Remind yourself later -** I'm not the only one with this problem, right? You made something cool and you know generally that it exists, but **forget some of the important details**. If there is one reason to write a README it might be this. Write it for your forgetful **future self**. Seriously, you'll get old too. And you will forget stuff. 
 
-**Reduce reported issues -** Steam is starting to come out of my ears just thinking about this. Do you want to know the most aggravating part of software development? When you know that your project has a bug or known issue and someone reports it to you like you don't already know. Having someone explain to you in great detail that known issue you already wasted like 30 hours on is THE WORST. So... avoid that situation altogether by simply adding a "known issues" section to your README. This will work like a charm (unless that annoying issue reporter also doesn't read).
+**Reduce reported issues -** Steam is starting to come out of my ears just thinking about this. Do you want to know the most **aggravating** part of software development? When you know that your project has a bug or **known issue** and someone reports it to you like you don't already know. Having someone explain to you in great detail that known issue you already wasted like 30 hours on is THE WORST. So... avoid that situation altogether by **simply adding a "known issues"** section to your README. This will work like a charm (unless that annoying issue reporter also doesn't read).
 
 **Make money? -** hey, why not?! You can totally make money from a README. More on that in the next section. 
 
-This last one isn't exactly a benefit, but just some advice. Just In case you are a Ghoster or a One-liner from above, I think it's important to point out that README files are written in Markdown. Markdown is super easy to learn and might even be worth committing to memory. Don't know markdown? [Here's a great doc](https://www.markdownguide.org/) on how it all works.
+This last one isn't exactly a benefit, but just some **advice**. Just In case you are a Ghoster or a One-liner from above, I think it's important to point out that README files are written in Markdown. **Markdown is super easy to learn** and might even be worth committing to memory. Don't know markdown? [Here's a great doc](https://www.markdownguide.org/) on how it all works.
 
 ## How to craft a useful, well-written README
 
-I think if you've made it this far through this post, you have gotta be super PUMPED about getting into this README action! Now that you've seen the failures and you know all the benefits, are you ready to learn, exactly, how to structure a README masterpiece? Let's (finally) get into the details. Here's the list, in order, of elements you should have in your README.
+I think if you've made it this far through this post, you have gotta be super PUMPED about getting into this README action! Now that you've seen the failures and you know all the benefits, are you ready to learn, exactly, how to structure a README masterpiece? Let's (finally) get into the details. Here's the list, in order, of **elements you should have in your README**.
 
 1. **A strong H1 title and an H2 subtitle** - Just like writing an article or a blog post, you need a great title and subtitle to attract **search engines and humans**. It doesn't need to be the name of your project, but it does help if your title includes the name of the project. 
-2. **An intro paragraph focused on what the project *does*** *\-* Write an intro paragraph about what this project is, what it does, and how it's used. This section is still for SEO purposes and for keeping it simple about the value your project provides to the user who is searching for it. 
-3. **Diagram (optional) -**  If necessary, add a diagram showing where this project fits and how it works. If it's a CLI tool or a graphical tool, this would be a great opportunity to add an animated GIF of your project in action. Even better, adding a youtube video demo of your project to your README could be very beneficial to gaining more users. 
-4. **Installation and usage instructions (for end-users) -** Now it's time to get a little bit nerdier. If a user has gotten this far into your README, you bet there's a chance they actually want to use your project. Give instructions on how to install or use the tool. Don't get this confused with how to contribute to this project (like help improve the code), that's the next section. This section should only talk about how to be a consumer of the project.
-5. **Installation and usage instructions (for contributors) -** Ya know the best part of open source projects? If you make something really cool, others will want to help make it better! In this section of the README, give instructions on how to pull the code down and start up the tool for development purposes. This section is usually pretty technical and may require instruction on how to build from source, but hopefully, you have a script for MAKEFILE from stuff like that. Anything you can do to make the development experience easier will help you gain more contributors. 
-6. **Contributor expectations -** If you are looking for contributors, make sure you set the ground rules. There's nothing worse than getting someone who wants to help you but they don't know how! This section of the README gives the guidelines for contributions. Do you expect someone to create an issue in the issue queue and then resolve it with a pull request? Do you want squashed commits? Do you have a pull requests template? Explain it all here. 
+2. **An intro paragraph focused on what the project *does*** *\-* Write an intro paragraph about what this project is, what it does, and how it's used. This section is still for SEO purposes and for keeping it simple about the **value your project provides** to the user who is searching for it. 
+3. **Diagram (optional) -**  If necessary, add a **diagram** showing where this project fits and how it works. If it's a CLI tool or a graphical tool, this would be a great opportunity to add an **animated GIF** of your project in action. Even better, adding a **youtube video** demo of your project to your README could be very beneficial to gaining more users. 
+4. **Installation and usage instructions (for end-users) -** Now it's time to get a little bit nerdier. If a user has gotten this far into your README, you bet there's a chance they actually **want to use your project**. Give **instructions** on how to install or use the tool. Don't get this confused with how to contribute to this project (like help improve the code), that's the next section. This section should only talk about how to be a **consumer of the project**.
+5. **Installation and usage instructions (for contributors) -** Ya know the best part of open source projects? If you make something really cool, **others will want to help make it better**! In this section of the README, give instructions on how to pull the code down and start up the tool for **development purposes**. This section is usually pretty technical and may require instruction on how to build from source, but hopefully, you have a script for MAKEFILE from stuff like that. Anything you can do to make the development experience easier will help you **gain more contributors**. 
+6. **Contributor expectations -** If you are looking for contributors, make sure you set the **ground rules**. There's nothing worse than getting someone who **wants to help you but they don't know how**! This section of the README gives the guidelines for contributions. Do you expect someone to create an issue in the issue queue and then resolve it with a pull request? Do you want squashed commits? Do you have a pull requests template? **Explain it all** here. 
 7. **Known issues -** I already talked about this README section above so I'll keep it short. Make a brief list of known issues here so people don't report bugs you already know about!
-8. **Begging for money! -** Don't be ashamed to ask for money. Seriously! You put a lot of effort into this project and if someone likes it they might just throw you a couple of bucks. You can add a link to [Buy Me a Coffee!](https://www.buymeacoffee.com/askcloudtech)
+8. **Begging for money! -** Don't be ashamed to ask for money. Seriously! You put a lot of effort into this project and if someone likes it they might just **throw you a couple of bucks**. You can add a link to [Buy Me a Coffee!](https://www.buymeacoffee.com/askcloudtech)
 
 ## TLDR
 
