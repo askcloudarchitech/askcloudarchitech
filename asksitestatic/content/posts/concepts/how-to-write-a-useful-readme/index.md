@@ -1,6 +1,6 @@
 ---
 title: Your README is a Dumpster Fire - It's Time to Fix That
-date: 2022-04-24T21:50:57.931Z
+date: 2022-04-28T05:05:44.685Z
 description: Let's be honest for a minute, all of your READMEs are
   afterthoughts. They are a chore that needs to be done. Well, today IS the day
   that you could turn all of that around. Today you could choose to give your
