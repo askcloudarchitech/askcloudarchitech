@@ -73,9 +73,9 @@ I hope the section above made you feel both **ashamed of yourself** for the comp
 
 **Make money? -** hey, why not?! You can totally make money from a README. More on that in the next section. 
 
-## How to craft a useful, well-written README
+This last one isn't exactly a benefit, but just some advice. Just In case you are a Ghoster or a One-liner from above, I think it's important to point out that README files are written in Markdown. Markdown is super easy to learn and might even be worth committing to memory. Don't know markdown? [Here's a great doc](https://www.markdownguide.org/) on how it all works.
 
-**Learn Markdown -** Just In case you are a Ghoster or a One-liner from above, I think it's important to point out that README files are written in Markdown. Markdown is super easy to learn and might even be worth committing to memory. Don't know markdown? [Here's a great doc](https://www.markdownguide.org/) on how it all works.
+## How to craft a useful, well-written README
 
 I think if you've made it this far through this post, you have gotta be super PUMPED about getting into this README action! Now that you've seen the failures and you know all the benefits, are you ready to learn, exactly, how to structure a README masterpiece? Let's (finally) get into the details. Here's the list, in order, of elements you should have in your README.
 
