@@ -60,7 +60,7 @@ Before we dive into why you want a good README and how to make one, let's take a
 
 **The over-explainer -** Ah yes, the **exact opposite of the ghost** is the over-explainer. You know, the one where the README is so **long and complicated** that nobody would ever possibly take the time to read the whole thing? READMEs are made to be a summary, not all of your comments compiled into a doc.
 
-**The out-of-date -** This one is **all-to-common**. You **started with good intentions** and wrote a README worth actually reading, but then, slowly, everything started to fall apart. A refactor of a whole portion of the app wasn't documented. A brand new set of config was completely forgotten. The architecture diagram is completely out of whack. This README is quite possibly the worst because it can be **completely miseading**. The poor soul who tried to follow your **three-year-old instructions** hates you right now. 
+**The out-of-date -** This one is **all-to-common**. You **started with good intentions** and wrote a README worth actually reading, but then, slowly, everything started to fall apart. A refactor of a whole portion of the app wasn't documented. A brand new set of config was completely forgotten. The architecture diagram is completely out of whack. This README is quite possibly the worst because it can be **completely misleading**. The poor soul who tried to follow your **three-year-old instructions** hates you right now. 
 
 **The broken promise -** I'll spare you the dramatics and simply leave you with this: "README coming soon!" *Facepalm.*
 
