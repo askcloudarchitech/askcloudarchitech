@@ -68,6 +68,8 @@ Having a development career and working on side projects are two completely diff
 
 This is why it’s super important to do your own code review before pushing the big green button on GitHub. Before submitting your next code contribution, try these steps. They’ll not only make you look like a hero but also save precious time for both you and the reviewer which is excellent for your career.
 
+{{< youtube 0YU9OSmH37k >}}
+
 Before you even start coding, read and understand the requirements of the task you are being asked to complete. If you don’t completely understand what you are supposed to be doing, take some time and ask questions. Taking 10 minutes to ask questions will save you hours of time on the back end trying to fix code you wrote based on assumptions. 
 
 Alright, got the requirements all figured out? Next, make sure you have your development space set up for running the code and debugging. Nobody writes perfect code without trying it out constantly and iterating on changes. Figure out the most efficient way to set up your local environment so you can write code, try it, fail fast, and continue moving forward without wasting a bunch of time. 
