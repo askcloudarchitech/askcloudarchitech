@@ -1,6 +1,6 @@
 ---
 title: Always Do These Eight Things Before Pushing a Commit
-date: 2022-06-04T16:46:39.011Z
+date: 2022-06-04T16:55:22.629Z
 description: >-
   Submitting code for review can be a nerve-wracking experience, especially if
   you are early in your coding career or new to a larger company requiring a
