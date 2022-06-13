@@ -75,7 +75,7 @@ resources:
 ---
 Developing software of any type will inevitably involve pulling in an open-source dependency. But, given that there are millions of open source projects out there and you don’t personally know anything about their source code or their security practices, how do you know if that code that you just pulled into your project is safe? 
 
-When it comes to security, there is no such thing as perfectly safe software. It’s all about managing risk and making informed decisions on the software you are choosing to include in your project. It would be super easy for me to sit here and say “You need to review every last line of code going into your project”, but the simple truth is that’s practically impossible. So instead, id like to share with you the five phases of software review that I follow when evaluating open source packages, APIs and SDKs.
+When it comes to security, there is no such thing as perfectly safe software. It’s all about managing risk and making informed decisions on the software you are choosing to include in your project. It would be super easy for me to sit here and say “You need to review every last line of code going into your project”, but the simple truth is that’s practically impossible. So instead, I'd like to share with you the five phases of software review that I follow when evaluating open source packages, APIs and SDKs.
 
 {{< youtube 8ygb6rIgoKs >}}
 
@@ -111,7 +111,7 @@ Some projects will even have a note in their readme about how to report security
 
 As a final step, you could also do a review of the actual source code of the project. Now, I know sometimes these projects are huge and there is no way you could possibly review the whole thing, but it doesn’t hurt to look at the parts you want to use. Especially if the functionality you need is mission-critical. 
 
-As the last step, and this doesn’t apply to every project, you can check third-party sites for bounty programs. Sites like <https://hunter.dev> report known issues that need resolution. 
+As the last step, and this doesn’t apply to every project, you can check third-party sites for bounty programs. Sites like <https://huntr.dev> report known issues that need resolution. 
 
 Finally and maybe most importantly, check one of the many CVE databases on the internet. My favorite is <https://osv.dev/>. Just type the name of the package to see a history of CVEs filed against the project and most importantly if it was fixed and how long it took. the site will list the URL of the original report so you can look at more details and the resolutions. 
 
