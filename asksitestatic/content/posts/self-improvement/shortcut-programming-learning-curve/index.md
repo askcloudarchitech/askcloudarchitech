@@ -101,7 +101,8 @@ NodeJS / Javascript
 * Introduction to NodeJS: Back-End JavaScript: https://skillshare.eqcm.net/kjX2Xd
 * Javascript: Gentle Introduction for Beginners: https://skillshare.eqcm.net/a1kGkM
 * Node.js Design Patterns: Design and implement production-grade Node.js applications using proven patterns and techniques - https://amzn.to/3OnrAUz 
-* JavaScript from Beginner to Professional: Learn JavaScript quickly by building fun, interactive, and dynamic web apps, games, and pages - https://amzn.to/3QAgL38 * https://nodejs.org/en/download/ https://nodejs.org/en/docs/guides/ 
+* JavaScript from Beginner to Professional: Learn JavaScript quickly by building fun, interactive, and dynamic web apps, games, and pages - https://amzn.to/3QAgL38
+* https://nodejs.org/en/download/ https://nodejs.org/en/docs/guides/ 
 * https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics 
 
 Go (Golang) 
