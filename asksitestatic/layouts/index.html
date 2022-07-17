@@ -1,6 +1,30 @@
 {{ define "main" }}
 {{ partial "page-header" . }}
 
+<aside title="Sign up for the Weekly Cloud" class="" style="border:1px solid grey; border-radius:10px; background-color:#153235; padding:15px; margin-bottom:10px;">
+    <header class="gdoc-post__header gdoc-markdown__align--center">
+        <h1 class="gdoc-post__title">Sign Up For The Weekly Cloud</h1>    
+        <p> Want to keep up on the latest in tech and development related news? <br/>
+            Subscribe to the weekly cloud!<br/> A weekly email newsletter where I sift through the Internet so you don’t have to.
+        </p>
+    </header>
+    <form action="https://askcloudarchitech.us14.list-manage.com/subscribe/post?u=421392ab7e0ce2293355a111f&amp;id=af77cc5984" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate pure-form pure-form-stacked" target="_blank" novalidate>
+        <fieldset>
+            <div class="pure-g">
+                <div class="pure-u-1 pure-u-md-2-5">
+                    <label for="aligned-email">Email Address</label>
+                    <input type="email" required  id="mce-EMAIL" name="EMAIL" placeholder="Email Address" />
+                </div>
+            </div>
+            <div class="pure-g">
+                <div class="pure-u-1 pure-u-md-1-2">
+                    <button type="aligned-submit" class="pure-button pure-button-primary">Submit</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
 {{ $paginator := .Paginate (first 50 .Site.RegularPages) }}
 {{ range $paginator.Pages }}
         {{ if ne .Type "common-questions" }}
@@ -71,41 +95,6 @@
         {{ end }}
     {{ end }}
 {{ template "_internal/pagination.html" . }}
-
-    <aside title="Submit a question for the Cloud Architect">
-        <form class="pure-form pure-form-stacked" name="questionform" method="POST" data-netlify="true" netlify-honeypot="hp1">
-            <legend>Ask a question</legend>
-
-            <p>Have a question? Submit your question using this form.</p>
-
-            <fieldset>
-                <div class="pure-g">
-                    <div class="pure-u-1 pure-u-md-2-5">
-                        <label for="aligned-name">Name</label>
-                        <input type="text" required id="aligned-name" name="name" placeholder="Name" />
-                    </div>
-                </div>
-                <div class="pure-g">
-                    <div class="pure-u-1 pure-u-md-2-5">
-                        <label for="aligned-email">Email Address</label>
-                        <input type="email" required id="aligned-email" name="email" placeholder="Email Address" />
-                        <input type="text" class="hp1" name="hp1" />
-                    </div>
-                </div>
-                <div class="pure-g">
-                    <div class="pure-u-1">
-                        <label for="aligned-question" > Question </label>
-                        <textarea id="aligned-question" name="question" rows="15"></textarea>
-                    </div>
-                </div>
-                <div class="pure-g">
-                    <div class="pure-u-1 pure-u-md-1-2">
-                        <button type="aligned-submit" class="pure-button pure-button-primary">Submit</button>
-                    </div>
-                </div>
-            </fieldset>
-        </form>
-    </aside>
 {{ end }}
 
 {{ define "post-tag" }}
