@@ -23,12 +23,14 @@ tags:
   - operations
   - business
 ID: 1649031303502
+videoID: hmE_FdWVLyY
 mainImage: devops
 resources:
   - src: devops.001.jpeg
     name: devops
     title: "Development + Operations = DevOps. "
 ---
+
 {{< img name="devops" size="large" >}}
 
 OK, so I don't know who needs to hear this because it seems like such an obvious thing, but DevOps is not a job title!
@@ -36,6 +38,8 @@ OK, so I don't know who needs to hear this because it seems like such an obvious
 There is no such thing as a "DevOps team" or someone who has decided to "do DevOps" as a job. If you think that there are developers and then also DevOps, all you are describing is the old way of doing things with a fancy new name. DevOps is a mindset and represents exactly the opposite.
 
 **Development + Operations = DevOps**
+
+{{< youtube hmE_FdWVLyY >}}
 
 ## The Age-Old Problem of Development and Operations
 
@@ -91,7 +95,7 @@ DevOps is about embracing change and being able to move quickly and efficiently 
 
 ## DevOps is about holistically embracing the software development lifecycle
 
-DevOps is about supporting every step of the software development lifecycle as a team where everyone is aware of all of the moving parts. 
+DevOps is about supporting every step of the software development lifecycle as a team where everyone is aware of all of the moving parts.
 
 **Designing/Planning** - The best teams who embrace the DevOps culture plan their applications with all aspects of the lifecycle in mind. It's not just about what the application does, but also about how it fits into the ecosystem. As a matter of fact, the planning phase is the best time to be inclusive. It's an opportunity to talk about testing strategy, application architecture, monitoring, and deployment processes all in one safe place where nobody's needs are considered less important.
 

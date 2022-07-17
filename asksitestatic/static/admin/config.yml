@@ -44,6 +44,12 @@ collections:
           widget: "string",
           required: false,
         }
+      - {
+          label: "Youtube Video ID",
+          name: "videoID",
+          widget: "string",
+          required: false,
+        }
       - label: "Images"
         name: "resources"
         widget: "list"

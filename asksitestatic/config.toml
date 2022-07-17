@@ -49,3 +49,7 @@ pluralizeListTitles = false
 [outputs]
   page = ['HTML', 'MediumJSON']
   section = ['HTML', 'MediumJSON']
+
+[security]
+  [security.funcs]
+    getenv = ['^HUGO_', 'YOUTUBE_API_KEY']
