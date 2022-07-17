@@ -153,10 +153,22 @@
   }
 
   .summary-image {
-    margin-top:6px;
-    min-width:275px;
-    max-width:275px;
+    margin-top: 6px;
+    min-width: 275px;
+    max-width: 275px;
   }
+}
+
+.weekly-cloud-cta {
+  border: 1px solid var(--accent-color);
+  background-color: var(--accent-color-lite);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.weekly-cloud-cta input {
+  background-color: var(--body-background);
 }
 
 .gdoc-brand__img {
@@ -181,7 +193,7 @@
 .pagination {
   display: flex;
   list-style: none;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   margin: 20px 0;
   padding: 0;
   justify-content: center;
@@ -190,7 +202,7 @@
 .page-link {
   position: relative;
   display: block;
-  padding: .75rem 1rem;
+  padding: 0.75rem 1rem;
   margin-left: -1px;
   line-height: 1.25;
   color: var(--body-font-color);
@@ -219,7 +231,7 @@
 }
 
 .gdoc-post__readmore {
-  margin: .5rem 0 .5rem 0;
+  margin: 0.5rem 0 0.5rem 0;
 }
 
 .gdoc-post {
@@ -234,4 +246,3 @@ h1 {
   font-size: 1.5rem !important;
   margin: 0.67em 0 !important;
 }
-
