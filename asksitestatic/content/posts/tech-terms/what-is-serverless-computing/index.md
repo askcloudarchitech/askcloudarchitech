@@ -69,13 +69,13 @@ Serverless functions are a terrible name for what this actually is, but hey, who
 
 Anyways, Serverless is really an entire class of computing where instead of being charged for servers running all the time, you are instead charged for individual invocations of your functionality. Most of the time you will find that Serverless computing is referred to as Serverless functions because they are light weight, stateless and somewhat short lived.
 
-Where can i find Serverless?
+**Where can i find Serverless?**
 
-Every cloud provided offers a Serverless solution and there are also many other examples of places where the Serverless idea is used. For the cloud provders, AWS has Lambda, GCP has cloud functions, Azure has Azure functions. Beyond these big names, here are a couple other examples: Netlify, the company known for JAMstack hosting offers Netlify Functions and Cloudlare, the CDN and WAF company, offers Cloudflare Workers.
+Every cloud provided offers a Serverless solution and there are also many other examples of places where the Serverless idea is used. For the cloud providers, AWS has Lambda, GCP has cloud functions, Azure has Azure functions. Beyond these big names, here are a couple other examples: Netlify, the company known for JAMstack hosting offers Netlify Functions and Cloudflare, the CDN and WAF company, offers Cloudflare Workers.
 
 No matter where you find them or what they’re called, all Serverless offerings have the same things in common:
 
-**Generally they offer a few options on how to envoke them.**
+**Generally they offer a few options on how to invoke them**
 
 For example, heres a list of the ways Azure functions can be triggered. 
 
@@ -89,7 +89,7 @@ Here’s the list of Lambda supported languages.
 
 ![](screen-shot-2022-08-02-at-6.36.58-pm.png)
 
-Additionally some will support custom runtimes where you can essentially do any language you want. Lets' be honest, these things are really just some sort of container image so its really just a matter of what the provider chooses to let you do.
+Additionally some will support custom runtimes where you can essentially do any language you want. Lets' be honest, these things are really just some sort of container image so it's really just a matter of what the provider chooses to let you do.
 
 And finally, for each type of trigger they support, they will provide specific instructions on what your literal function should look like when you write it. when your function is invoked certain arguments will be passed so you can do whatever you need to do.
 
