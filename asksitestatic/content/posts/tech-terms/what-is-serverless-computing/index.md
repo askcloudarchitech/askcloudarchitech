@@ -63,7 +63,7 @@ resources:
 ---
 What is a Serverless function or what is Serverless in general?
 
-{{< youtube=ewiNTZvwxUY >}}
+{{< youtube ewiNTZvwxUY >}}
 
 Serverless functions are a terrible name for what this actually is, but hey, who am I to get in the way of the marketing machines at cloud companies who really like to make things sound like they are better because they don't have complicated stuff in them?
 
