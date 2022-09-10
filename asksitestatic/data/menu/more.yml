@@ -1,5 +1,5 @@
 ---
 more:
-  - name: FAQ
-    ref: "/common-questions"
-    icon: "notification"
+  # - name: FAQ
+  #   ref: "/common-questions"
+  #   icon: "notification"
