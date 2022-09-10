@@ -42,27 +42,6 @@
                     <svg class="icon gdoc_timer"><use xlink:href="#gdoc_timer"></use></svg>
                     <span class="gdoc-post__tag">{{ .ReadingTime }} min read</span>
                 </span>
-
-                {{ $tc := 0 }}
-                {{ with .Params.tags }}
-                {{ range sort . }}
-                    {{ $name := . }}
-                    {{ $page := $.Site.GetPage (printf "/tags/%s" $name | urlize) }}
-                    {{ if gt $page.Data.tag.Count 1 }}
-                    {{ with $page }}
-                        {{ if eq $tc 0 }}
-                        <span class="no-wrap">
-                        <svg class="icon gdoc_bookmark"><use xlink:href="#gdoc_bookmark"></use></svg>
-                        {{ template "post-tag" dict "name" $name "page" . }}
-                        </span>
-                        {{ else }}
-                        {{ template "post-tag" dict "name" $name "page" . }}
-                        {{ end }}
-                    {{ end }}
-                    {{ $tc = (add $tc 1) }}
-                    {{ end }}
-                {{ end }}
-                {{ end }}
             </footer>
         </article>
     {{ end }}

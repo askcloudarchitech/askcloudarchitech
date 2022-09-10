@@ -37,8 +37,7 @@ pluralizeListTitles = false
 
 [taxonomies]
   category = 'categories'
-  series = 'series'
-  tag = 'tags'
+
 
 [outputFormats]
   [outputFormats.MediumJSON]

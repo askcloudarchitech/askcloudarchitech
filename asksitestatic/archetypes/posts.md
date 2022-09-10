@@ -1,18 +1,16 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-slug: ""
 date: {{ .Date }}
 ID: {{ .UniqueID }}
-draft: true
+draft: false
 description: an article
 keywords:
-categories: 
-    - Development
-series:
-    - Go Web Dev
-tags:
-    - Development
-    - Go
+mainImage: 
+videoID: 
+resources:
+  - name: TDD
+    title: TDD
+    src: thumb.001.jpeg
 ---
 
 {{< youtube w7Ft2ymGmfc >}}
