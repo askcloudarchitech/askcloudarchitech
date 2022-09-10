@@ -17,8 +17,6 @@ categories:
   - Development
   - Tutorials
   - Hugo
-series:
-  - Automatic Medium Post
 tags:
   - medium.com
   - REST

@@ -8,8 +8,6 @@ description: Learn about Homebrew. What is Homebrew? What does it do? How do you
 keywords: Homebrew, Package manager, installing homebrew
 categories:
   - Getting Started
-series:
-  - Computer setup
 tags:
   - Package Managers
   - Saving time
