@@ -1,5 +1,5 @@
 ---
-title: "The (Real) Meaning of “Keep The Lights On"
+title: 'The (Real) Meaning of "Keep The Lights On"'
 date: 2022-09-18T11:43:29-04:00
 ID: 71f95f391967fcf91e5182d54066dbd2
 draft: false
