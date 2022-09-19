@@ -7,8 +7,8 @@
     "menu-filetree" . }} {{ end }}
   </section>
 
-  {{ if and (in (slice "posts" "tags") .Section) (default false
-  .Site.Params.GeekdocTagsToMenu) }}
+  {{ if .Site.Taxonomies.Tags }} {{ if and (in (slice "posts" "tags") .Section)
+  (default false .Site.Params.GeekdocTagsToMenu) }}
   <section class="gdoc-nav--tags">
     <h2>Tags</h2>
     <ul class="gdoc-nav__list">
@@ -25,7 +25,7 @@
       {{ end }} {{ end }} {{ end }}
     </ul>
   </section>
-  {{ end }}
+  {{ end }} {{ end }}
 
   <section class="gdoc-nav--more">
     {{ if .Site.Data.menu.more.more }}

@@ -1,7 +1,16 @@
+{{- $source := "" -}}
+{{- $imgtag := "" -}}
+{{- if .Params.MainImage -}}
+    {{- $source = (.Resources.ByType "image").GetMatch (.Params.MainImage) -}}
+    {{- $imgtag = printf "<img src=\"%s\" />" $source.Permalink -}}
+{{- else -}}
+    {{- $source = resources.Get "logo-transparent.png" -}}
+    {{- $imgtag = printf "<img src=\"%s\" />" $source.Permalink -}}
+{{- end -}}
 {
   "title": {{ .Title | jsonify }},
   "contentFormat": "html",
-  "content": {{ printf "<h1>%s</h1> %s" .Title .Content | jsonify }},
+  "content": {{ printf "<h1>%s</h1> %s \n %s" .Title .Content $imgtag | jsonify }},
   "canonicalUrl": {{ .Permalink | jsonify }},
   "tags": {{ .Params.keywords | jsonify }}
 }
