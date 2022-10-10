@@ -8,6 +8,8 @@ description: Sometimes they have the best intentions but don’t quite make the
   has happened.
 draft: false
 keywords:
+  - Digital marketing
+  - Consumer privacy
   - CCPA
   - CPRA
   - CCPA backfires
