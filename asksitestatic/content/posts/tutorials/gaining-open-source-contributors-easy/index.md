@@ -15,6 +15,8 @@ resources:
 
 So you made a thing. It's this new API called Where’s My Toaster™ and obviously it's the best thing since sliced bread (bu-dum—tis). You poured your heart and soul into this thing. You quit your job, your wife left you, you spent every last penny you had and now its finally ready for its initial release to the world. It's finally time for the flood gates to open. Millions of users, thousands of contributors are about to get slapped with your amazing toaster finding awesomeness.
 
+{{< youtube S5-8I9-uNug >}}
+
 But… theres just one problem. Literally nobody knows about thing you made. Nobody is using it and nobody is contributing to it and honestly you need help (because you need to spend some time getting a job and your wife back).
 
 So… if you just made the new hotness and nobody knows about it, how do you fix that?
@@ -66,5 +68,3 @@ Obviously at this point the story tells itself! You’ll have so many erLang lov
 And that, my friends, is how you gain avocado loving, dis-repaird van driving, toaster losing contributors for your open source project.
 
 Easy right?
-
-{{< youtube S5-8I9-uNug >}}

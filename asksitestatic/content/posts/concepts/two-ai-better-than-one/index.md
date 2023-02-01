@@ -23,6 +23,8 @@ Now lets shift gears for just a second and talk about another AI tool called cha
 
 So, that got me thinking. What if we combined the two?
 
+{{< youtube R1C1oRv3XVI >}}
+
 What if I wrote a short description of a photo I wanted DALLE-2 to create and instead of just giving it that short description, I take the short description and give it to chat GPT? Ask chat GPT to write a much longer and more detailed description of what I want then gave that to DALLE-2?
 
 Will it make a better photo? Well i guess there’s only one way to find out.
@@ -130,5 +132,3 @@ And these are the photos created by the longer description:
 <hr/>
 
 Well, what do you think? Do you think that compounding the AI actually helped and produced a better product? Until next time, happy coding!
-
-{{< youtube R1C1oRv3XVI >}}
