@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Ask Cloud Architech"
 theme = "hugo-geekdoc"
 
+timeout = 60000
+
 # Required to get well formatted code blocks
 pygmentsUseClasses = true
 pygmentsCodeFences = true
