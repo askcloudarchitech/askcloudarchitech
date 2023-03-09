@@ -25,7 +25,7 @@ Seriously this is the story of nearly every software project ever created and it
 
 Unfortunately, creating a project and launching it is really just the beginning of the journey and the work you are about to do it probably waaaay outside of your comfort zone. Its time to take off that programmer hat and put on your marketing hat. What? You don't even own a marketing hat? Well, we’ve got some work to do.
 
-![Hat Rack](elin-tabitha-Hu5U4bLn7IM-unsplash.jpg)
+{{< img2 src="elin-tabitha-Hu5U4bLn7IM-unsplash.jpg" alt="Hat Rack" >}}
 
 Building a base of contributors and users of your project means that you NEED to build a community. But, way before you build a community you need to know who would want to be part of the community. I don't want to burst your bubble here, but you probably should have thought about this before you made the thing you made. So let’s take a step back and quickly identify some of this stuff that should have happened in the very beginning.
 
@@ -35,7 +35,7 @@ Now that you know the problem you’re solving, what type of person has this pro
 
 Millenials who live in vans down by the river. It's pretty clear that many of these van living Millenials are living way beyond their means and their vans are in either disrepair or have poorly crafted mechanisms for securing their toasters while winding down that incredibly bumpy road. As these disrepaired-van owning bumpy road traveling Millenials are moving from place to place seeking their deepest enlightenment they obviously are losing toasters left and right. You need to help these people. These are your people.
 
-![A van on a road](bradley-dunn-hI11J9TlBUE-unsplash.jpg)
+{{< img2 src="bradley-dunn-hI11J9TlBUE-unsplash.jpg" alt="A van on a road" >}}
 
 And you, my friend just defined your audience! So, ready for the next step? It's time to reach that audience and tell them about how you are about to save their asses and literally dozens of dollars by making sure they alway. And I mean always know where their toaster is AT ALL TIMES.
 
@@ -55,7 +55,7 @@ So nows the time. You identified your audience, you engaged your audience, avoca
 
 YEYYYYYYSSSSSSSSS, you now have you first contributor!
 
-![Avocado toast popping out of a toaster](sara-julie-yoFIPu3PpgU-unsplash.jpg)
+{{< img2 src="sara-julie-yoFIPu3PpgU-unsplash.jpg" alt="Avocado toast popping out of a toaster" >}}
 
 This should lead you to the next obvious step. If the avocado dis-repaird van lovers are using your tool so much that they wish it did more, maybe you should ask them what they want next? Then, now that you have a following, maybe you should put the word out that you would love if they would contribute to HELP THE COMMUNITY.
 

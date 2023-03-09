@@ -1,28 +1,31 @@
-{{ $source := ($.Page.Resources.ByType "image").GetMatch (printf "%s" (.Get "name")) }}
+{{ $source := ($.Page.Resources.ByType "image").GetMatch (printf "%s" (.Get "src")) }}
 {{ $customAlt := .Get "alt" }}
 {{ $customSize := .Get "size" }}
+{{ $showcaption := .Get "showcaption" | default true}}
 {{ $lazyLoad := default (default true $.Site.Params.GeekdocImageLazyLoading) (.Get "lazy") }}
 
 {{ with $source }}
 {{ $caption := default .Title $customAlt }}
 
-{{ $tiny := (.Resize "320x jpg q90").Permalink }}
-{{ $small := (.Resize "600x jpg q90").Permalink }}
-{{ $medium := (.Resize "1200x jpg q90").Permalink }}
-{{ $large := (.Resize "1800x jpg q90").Permalink }}
+{{ $tiny := (.Resize "x320 jpg q90").RelPermalink }}
+{{ $small := (.Resize "x600 jpg q90").RelPermalink }}
+{{ $medium := (.Resize "x1200 jpg q90").RelPermalink }}
+{{ $large := (.Resize "x1800 jpg q90").RelPermalink }}
 
 {{ $size := dict "tiny" $tiny "small" $small "medium" $medium "large" $large }}
 
 <div class="flex justify-center">
 <figure class="gdoc-markdown__figure">
-    <a class="gdoc-markdown__link--raw" href="{{ .Permalink }}"></a>
+    <a class="gdoc-markdown__link--raw" href="{{ .RelPermalink }}">
         <picture>
             <source {{ with $customSize }}srcset="{{ index $size $customSize }}"{{ else }}srcset="{{ $size.small }} 600w, {{ $size.medium }} 1200w" sizes="100vw"{{ end }} />
             <img {{ if $lazyLoad }}loading="lazy" {{ end }}src="{{ $size.large }}" alt="{{ $caption }}" />
         </picture>
     </a>
+    {{ if $showcaption -}}
     {{ with $caption -}}
     <figcaption>{{ . }}{{ with $source.Params.credits }} ({{ . | $.Page.RenderString }}){{ end }}</figcaption>
+    {{- end }}
     {{- end }}
 </figure>
 </div>
