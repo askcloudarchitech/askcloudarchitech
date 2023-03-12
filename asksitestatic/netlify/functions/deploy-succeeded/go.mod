@@ -4,20 +4,20 @@ go 1.17
 
 require (
 	github.com/askcloudarchitech/mediumautopost v0.0.0-20220309064629-5de8be6dace7
-	github.com/aws/aws-lambda-go v1.28.0
+	github.com/aws/aws-lambda-go v1.38.0
 )
 
 require (
 	github.com/Medium/medium-sdk-go v0.0.0-20171230201202-4daca056cf6a // indirect
-	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
+	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/google/go-github v17.0.0+incompatible // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
-	github.com/joho/godotenv v1.4.0 // indirect
-	github.com/stretchr/testify v1.7.0 // indirect
-	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
-	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
+	github.com/joho/godotenv v1.5.1 // indirect
+	github.com/stretchr/testify v1.7.2 // indirect
+	golang.org/x/net v0.8.0 // indirect
+	golang.org/x/oauth2 v0.6.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	google.golang.org/protobuf v1.29.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
