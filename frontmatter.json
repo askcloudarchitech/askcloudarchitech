@@ -254,7 +254,7 @@
   ],
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "[[workspace]]/asksitestatic/static",
-  "frontMatter.content.hideFm": true,
+  "frontMatter.content.hideFm": false,
   "frontMatter.content.pageFolders": [
     {
       "path": "[[workspace]]/asksitestatic/content/posts/digital-marketing",
