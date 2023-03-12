@@ -290,11 +290,6 @@
       "title": "tutorials",
       "path": "[[workspace]]/asksitestatic/content/posts/tutorials",
       "previewPath": "/posts/tutorials/"
-    },
-    {
-      "title": "work-hacks",
-      "path": "[[workspace]]/asksitestatic/content/posts/work-hacks",
-      "previewPath": "/posts/work-hacks/"
     }
   ],
   "frontMatter.taxonomy.categories": [
