@@ -16,7 +16,7 @@
 
 <div class="flex justify-center">
 <figure class="gdoc-markdown__figure">
-    <a class="gdoc-markdown__link--raw" href="{{ .RelPermalink }}">
+    <a class="gdoc-markdown__link--raw" href="{{ $size.large }}">
         <picture>
             <source {{ with $customSize }}srcset="{{ index $size $customSize }}"{{ else }}srcset="{{ $size.small }} 600w, {{ $size.medium }} 1200w" sizes="100vw"{{ end }} />
             <img {{ if $lazyLoad }}loading="lazy" {{ end }}src="{{ $size.large }}" alt="{{ $caption }}" />

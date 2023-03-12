@@ -9,6 +9,9 @@
 {{ else }} 
 {{ $source = resources.Get "logo-transparent.png"}} 
 {{ end }} 
+{{ if .Params.previewImage }}
+{{ $source = (.Resources.ByType "image").GetMatch (.Params.previewImage) }}
+{{ end }}
 {{ $source = $source.Resize "600x" }}
 <meta property="og:image" content="{{ $source.Permalink | absURL }}" />
 

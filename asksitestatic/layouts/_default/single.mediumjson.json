@@ -7,6 +7,10 @@
     {{- $source = resources.Get "logo-transparent.png" -}}
     {{- $imgtag = printf "<img src=\"%s\" />" $source.Permalink -}}
 {{- end -}}
+{{ if .Params.previewImage }}
+    {{ $source = (.Resources.ByType "image").GetMatch (.Params.previewImage) }}
+    {{- $imgtag = printf "<img src=\"%s\" />" $source.Permalink -}}
+{{ end }}
 {
   "title": {{ .Title | jsonify }},
   "contentFormat": "html",

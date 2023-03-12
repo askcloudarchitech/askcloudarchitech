@@ -25,6 +25,10 @@
             {{ $source = resources.Get "logo-transparent.png"}}
         {{ end }}
 
+        {{ if .Params.previewImage }}
+            {{ $source = (.Resources.ByType "image").GetMatch (.Params.previewImage) }}
+        {{ end }}
+
         {{ $source = $source.Resize "600x" }}
         <article class="gdoc-markdown gdoc-post">
             <header class="gdoc-post__header">

@@ -1,3 +1,19 @@
 {
-  "editor.formatOnSave": false
+  "editor.formatOnSave": false,
+  "[markdown]": {
+    "editor.fontSize": 14,
+    "editor.lineHeight": 26,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 64,
+    "editor.lineNumbers": "off",
+    "editor.quickSuggestions": false,
+    "editor.minimap.enabled": false
+  },
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.framework.startCommand": "hugo server -D -s ./asksitestatic",
+  "frontMatter.dashboard.openOnStart": true,
+  "cSpell.words": [
+    "bootable",
+    "Microk"
+  ]
 }
