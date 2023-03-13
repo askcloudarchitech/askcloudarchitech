@@ -3,7 +3,7 @@ title: "Step-by-Step: Adding Shared Storage to a Kubernetes Cluster"
 date: 2023-03-12T23:23:04.723Z
 description: Learn how to add shared NFS storage to a kubernetes cluster with the NFS CSI.
   Learn to set up NFS on a Kubernetes node or on an external synology DS 120 NAS
-draft: true
+draft: false
 videoID: efa8gwmbPms
 keywords:
   - kubernetes
