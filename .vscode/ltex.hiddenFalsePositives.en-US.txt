@@ -1,2 +1,3 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIt's telling the system that you have a class of storage called \"nfs-csi\" and when a user of this cluster requests a volume by this storage class name, it should send the request to the NFS CSI provisioner along with the IP and the path of the NFS server.\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIn our case, we're going to create a storage class called \"nfs-csi\".\\E$"}
+{"rule":"DESCEND_DOWN","sentence":"^\\QSo forge forward, and take a dive down the rabbit hole.\\E$"}
