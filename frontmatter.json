@@ -290,6 +290,11 @@
       "title": "tutorials",
       "path": "[[workspace]]/asksitestatic/content/posts/tutorials",
       "previewPath": "/posts/tutorials/"
+    },
+    {
+      "title": "career-advice",
+      "path": "[[workspace]]/asksitestatic/content/posts/career-advice",
+      "previewPath": "/posts/career-advice/"
     }
   ],
   "frontMatter.taxonomy.categories": [
