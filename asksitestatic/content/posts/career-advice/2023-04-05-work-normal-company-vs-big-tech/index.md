@@ -15,7 +15,7 @@ tags:
   - tech company expectations
   - big tech
 ID: 2023-04-05T21:02:28.222Z
-previewImage: thumb.001.jpeg
+previewImage: bigtech2.001.jpeg
 mainImage: ""
 ---
 For those of you who are in the earlier stages of your career or maybe aren’t working in tech yet, I bet that you have a goal in mind. The goal is to work for a “tech” company. 
