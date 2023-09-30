@@ -16,7 +16,7 @@
 
 {{ $paginator := .Paginate (first 50 .Site.RegularPages) }}
 {{ range $paginator.Pages }}
-        {{ if ne .Type "common-questions" }}
+        {{ if eq .Type "posts" }}
 
         {{ $source := "" }}
         {{ if .Params.MainImage }}
