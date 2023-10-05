@@ -2,7 +2,7 @@
 title: "Navigating the Apple Ecosystem: A Developer's Journey from Passion to App Store"
 date: 2023-09-28T04:39:17.477Z
 description: Unveil the intricacies of app development in the Apple ecosystem. From becoming a developer to App Store submission, discover the unspoken realities and become a sexy app developer.
-draft: true
+draft: false
 videoID: ukFCvCf-bFs
 keywords: []
 tags: []
